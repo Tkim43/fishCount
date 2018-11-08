@@ -1,4 +1,4 @@
-
+getData();
 
 
 
@@ -7,10 +7,19 @@ function getData(){
         url: 'http://localhost:8888/fishCount/fish.php',
         dataType: 'json',
         success: function(response){
-            console.log(response[0].location)
+            displayLandingCounts(response);
+            console.log(response)
         }
     })
 }
 
 
-getData();
+function displayLandingCounts(landingInfo){
+    for(let i =0; i < landingInfo.length; i++){
+        let location = landingInfo[i].location;
+        console.log(location);
+
+        let boatCount = landingInfo[i].anglerCount;
+        console.log(boatCount)
+    }
+}
