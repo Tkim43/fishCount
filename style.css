@@ -1,0 +1,24 @@
+.nav-wrapper{
+    color: white;
+}
+.breadcrumb{
+    left: 10%;
+    font-family: 'Signika', sans-serif;
+}
+th{
+    font-family: 'Signika', sans-serif;
+    font-size: 2em;
+}
+td{
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.5em;
+}
+.fishSpace{
+    border: white solid 3px;
+}
+.card-content{
+    font-family: 'Heebo', sans-serif;
+}
+.header{
+    font-family: 'Signika', sans-serif;
+}
