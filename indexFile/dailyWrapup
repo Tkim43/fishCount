@@ -1,0 +1,3517 @@
+
+
+
+<base target="main">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang="en">
+<head>
+<meta http-equiv='content-type' content='text/html; charset=utf-8' />
+<meta http-equiv='content-style-type' content='text/css' />
+<meta property='og:title' content='e_PAGETITLE'/>
+<meta property='og:image' content='http://www.976-tuna.com/logofacebook.png'/>
+<meta property='og:site_name' content='976-TUNA.com'/>
+<meta property='og:description' content='976-TUNA The Original Leader in Fish Reports #1 since 1985'/>
+<meta property='og:url' content='http://www.976-tuna.com/e107_plugins/landing/wrapup.php'/>
+<meta property='fb:app_id' content='128781110509672' />
+<meta property='og:image:width' content='1200'>
+<meta property='og:image:height' content='630'>
+<meta http-equiv='content-language' content='en' />
+<title>976-TUNA The Original Leader in Fish Reports #1 since 1985</title>
+<!-- *JS* -->
+<script type='text/javascript' src='/e107_files/e107.js'></script>
+
+<!-- eplug_js -->
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js'></script>
+<script type='text/javascript' src='/e107_plugins/hottrips/js/jquery-ui-timepicker-addon.js'></script>
+<script type='text/javascript' src='/e107_plugins/hottrips/js/jquery-ui-sliderAccess.js'></script>
+<!-- *CSS* -->
+<!-- Theme css -->
+<link rel='stylesheet' href='/e107_themes/2013976/style.css' type='text/css' media='all' />
+<link rel='stylesheet' href='/e107_files/e107.css' type='text/css' />
+<!-- *META* -->
+<!-- banhelper meta -->
+<!-- mobile meta -->
+<!-- rss_menu meta -->
+<link rel='alternate' type='application/rss+xml' title='976-TUNA The Original Leader in Fish Reports #1 since 1985 News' href='https://www.976-tuna.com/e107_plugins/rss_menu/rss.php?news.2' />
+
+
+
+<!-- Core Meta Tags -->
+<link rel='icon' href='https://www.976-tuna.com/favicon.ico' type='image/x-icon' />
+<link rel='shortcut icon' href='https://www.976-tuna.com/favicon.ico' type='image/xicon' />
+
+<!-- *PRELOAD* -->
+</head>
+<body onload="externalLinks();">
+<script type='text/javascript'>
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9050714-2']);
+  _gaq.push(['_setDomainName', '976-tuna.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><div style='text-align:center' class='background'><table style='width:990px' border='0' cellpadding='0' cellspacing='0' 'text-align:center'><tr><td colspan='3'><script type='text/javascript' src='/e107_files/nav_menu_alt.js'></script><div class='menuBar' style='width:100%; white-space: nowrap'><a class='menuButton' href='http://www.976-tuna.com/news_front.php' >Home</a><a class='menuButton' href='/' onclick="return buttonClick(event, 'l_5');" onmouseover="buttonMouseover(event, 'l_5');">Fish Reports</a><div id='l_5' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='/news.php?list.1' ><span class='menuItemBuffer'><img src='../../e107_images/icons/california_1a-01.gif' alt='' style='border:0px; vertical-align:bottom; width: 16px; height: 16px' /></span><span class='menuItemText'>Southern California Saltwater</span></a><a class='menuItem' href='http://www.976-fresh.com/' ><span class='menuItemBuffer'><img src='../../e107_images/icons/trout1.gif' alt='' style='border:0px; vertical-align:bottom; width: 16px; height: 16px' /></span><span class='menuItemText'>California Freshwater</span></a></div><a class='menuButton' href='/' onclick="return buttonClick(event, 'l_23');" onmouseover="buttonMouseover(event, 'l_23');">Landing Counts</a><div id='l_23' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='/e107_plugins/landing/wrapup.php' ><span class='menuItemText'>Daily Wrap up</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.1' ><span class='menuItemText'>Point Loma</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.2' ><span class='menuItemText'>Fishermans Landing</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.3' ><span class='menuItemText'>H&M Landing</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.4' ><span class='menuItemText'>Seaforth Landing</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.6' ><span class='menuItemText'>Helgren's Oceanside</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.40' ><span class='menuItemText'>Oceanside Sea Center</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.7' ><span class='menuItemText'>Dana Wharf</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.8' ><span class='menuItemText'>Davey's Locker</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.9' ><span class='menuItemText'>Newport Landing</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.10' ><span class='menuItemText'>Pierpoint Landing</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.11' ><span class='menuItemText'>Long Beach Marina</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.12' ><span class='menuItemText'>Long Beach Sportfishing</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.13' ><span class='menuItemText'>LA Waterfront</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.14' ><span class='menuItemText'>San Pedro 22nd Street Marina</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.15' ><span class='menuItemText'>Redondo Sportfishing</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.16' ><span class='menuItemText'>Marina Del Rey Sportfishing</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.18' ><span class='menuItemText'>Channel Islands Sportfishing</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.19' ><span class='menuItemText'>Sea Landing Sportfishing</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.20' ><span class='menuItemText'>Patriot Sportfishing</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.21' ><span class='menuItemText'>Virg's Landing</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.27' ><span class='menuItemText'>Hook's Landing</span></a><a class='menuItem' href='/e107_plugins/landing/landing2.php?landingmonth.36' ><span class='menuItemText'>Ventura Sportfishing</span></a><a class='menuItem' href='http://www.976-tuna.com/e107_plugins/landing/landing2.php?landingmonth.39' ><span class='menuItemText'>Morro Bay Sportfishing</span></a></div><a class='menuButton' href='/' onclick="return buttonClick(event, 'l_27');" onmouseover="buttonMouseover(event, 'l_27');">Go Fishing</a><div id='l_27' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='http://www.976-tuna.com/e107_plugins/booking/calendar-departure.php' ><span class='menuItemText'>Monthly Trip List</span></a><a class='menuItem' href='/Charters.php' ><span class='menuItemText'>Open 976-TUNA Charters List</span></a><a class='menuItem' href='/news.php?list.72' ><span class='menuItemText'>Hot Open Party Trips</span></a></div><a class='menuButton' href='/' onclick="return buttonClick(event, 'l_28');" onmouseover="buttonMouseover(event, 'l_28');">Sign up</a><div id='l_28' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='/fpw.php' ><span class='menuItemText'>Forgot password</span></a><a class='menuItem' href='/signup.php' ><span class='menuItemBuffer'><img src='../../e107_images/icons/icon13.png' alt='' style='border:0px; vertical-align:bottom; width: 16px; height: 16px' /></span><span class='menuItemText'>Free General Site Member</span></a></div><a class='menuButton' href='http://photos.976-tuna.com/976-tuna-photo-album/' >Photos</a><a class='menuButton' href='/e107_plugins/links_page/links.php' >Sponsors</a><a class='menuButton' href='/' onclick="return buttonClick(event, 'l_162');" onmouseover="buttonMouseover(event, 'l_162');">Marine Directory</a><div id='l_162' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='/' onclick="return false;" onmouseover="menuItemMouseover(event, 'l_152');"><span class='menuItemText'>Tackle</span><span class="menuItemArrow">&#9654;</span></a><a class='menuItem' href='http://www.dsmionline.com/'  rel='external' ><span class='menuItemText'>DICK SHERRER MARINE</span></a><a class='menuItem' href='/' onclick="return false;" onmouseover="menuItemMouseover(event, 'l_165');"><span class='menuItemText'>Mechanic</span><span class="menuItemArrow">&#9654;</span></a></div><div id='l_152' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='/' onclick="return false;" onmouseover="menuItemMouseover(event, 'l_153');"><span class='menuItemText'>Knots</span><span class="menuItemArrow">&#9654;</span></a><a class='menuItem' href='/' onclick="return false;" onmouseover="menuItemMouseover(event, 'l_160');"><span class='menuItemText'>Tackle Stores</span><span class="menuItemArrow">&#9654;</span></a><a class='menuItem' href='/' onclick="return false;" onmouseover="menuItemMouseover(event, 'l_225');"><span class='menuItemText'>Gear</span><span class="menuItemArrow">&#9654;</span></a></div><div id='l_153' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='/news.php?extend.102218' ><span class='menuItemText'>Surgeons Knot</span></a><a class='menuItem' href='/news.php?extend.102219' ><span class='menuItemText'>Spiderhitch Knot</span></a><a class='menuItem' href='/news.php?extend.102220' ><span class='menuItemText'>Palomar Knot</span></a><a class='menuItem' href='/news.php?extend.102221' ><span class='menuItemText'>Dropperloop Knot</span></a><a class='menuItem' href='/news.php?extend.102222' ><span class='menuItemText'>Blood Knot</span></a><a class='menuItem' href='/news.php?extend.102223' ><span class='menuItemText'>Clinch Knot</span></a></div><div id='l_160' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='http://www.fishingsyndicate.com/'  rel='external' ><span class='menuItemText'>Fishing Syndicate</span></a></div><div id='l_225' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='http://www.acelinehauler.com/'  rel='external' ><span class='menuItemText'>Ace Line Hauler</span></a><a class='menuItem' href='http://www.ahiusa.com/'  rel='external' ><span class='menuItemText'>Ahi USA</span></a><a class='menuItem' href='http://www.promarnets.com/'  rel='external' ><span class='menuItemText'>Promar Fishing Nets</span></a></div><div id='l_165' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='http://allpurposemarine.com/'  rel='external' ><span class='menuItemText'>All Purpose Marine</span></a></div><a class='menuButton' href='/' onclick="return buttonClick(event, 'l_166');" onmouseover="buttonMouseover(event, 'l_166');">Landings</a><div id='l_166' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='/' onclick="return false;" onmouseover="menuItemMouseover(event, 'l_167');"><span class='menuItemText'>San Diego</span><span class="menuItemArrow">&#9654;</span></a><a class='menuItem' href='/' onclick="return false;" onmouseover="menuItemMouseover(event, 'l_170');"><span class='menuItemText'>Los Angeles/Orange County</span><span class="menuItemArrow">&#9654;</span></a><a class='menuItem' href='/' onclick="return false;" onmouseover="menuItemMouseover(event, 'l_270');"><span class='menuItemText'>Santa Barbra</span><span class="menuItemArrow">&#9654;</span></a></div><div id='l_167' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='http://www.seaforthlanding.com/'  rel='external' ><span class='menuItemText'>Seaforth  Sportfishing</span></a><a class='menuItem' href='http://www.helgrensportfishing.com/'  rel='external' ><span class='menuItemText'>Helgrens Sportfishing</span></a><a class='menuItem' href='http://www.hmlanding.com/'  rel='external' ><span class='menuItemText'>H&M Landing</span></a><a class='menuItem' href='http://www.fishermanslanding.com/'  rel='external' ><span class='menuItemText'>Fisherman's Landing</span></a><a class='menuItem' href='http://www.pointlomasportfishing.com/'  rel='external' ><span class='menuItemText'>Point Loma</span></a></div><div id='l_170' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='http://www.newportlanding.com/'  rel='external' ><span class='menuItemText'>Newport Landing</span></a><a class='menuItem' href='http://www.daveyslocker.com/deep-sea-fishing-trip-tickets/'  rel='external' ><span class='menuItemText'>Davey's Locker</span></a><a class='menuItem' href='http://www.pierpoint.net'  rel='external' ><span class='menuItemText'>Pierpoint Landing</span></a><a class='menuItem' href='http://mdrsf.com'  rel='external' ><span class='menuItemText'>Marina Del Rey</span></a><a class='menuItem' href='http://laharborsportfishing.com/'  rel='external' ><span class='menuItemText'>LA Waterfront Sportfishing</span></a></div><div id='l_270' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='http://www.stardustsportfishing.com/'  rel='external' ><span class='menuItemText'>Sea Landing Sportfishing</span></a></div><a class='menuButton' href='/' onclick="return buttonClick(event, 'l_176');" onmouseover="buttonMouseover(event, 'l_176');">Sportboats</a><div id='l_176' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='/' onclick="return false;" onmouseover="menuItemMouseover(event, 'l_177');"><span class='menuItemText'>San Diego</span><span class="menuItemArrow">&#9654;</span></a><a class='menuItem' href='/' onclick="return false;" onmouseover="menuItemMouseover(event, 'l_178');"><span class='menuItemText'>Orange County/Los Angeles</span><span class="menuItemArrow">&#9654;</span></a><a class='menuItem' href='/' onclick="return false;" onmouseover="menuItemMouseover(event, 'l_179');"><span class='menuItemText'>Channel Islands</span><span class="menuItemArrow">&#9654;</span></a><a class='menuItem' href='/' onclick="return false;" onmouseover="menuItemMouseover(event, 'l_315');"><span class='menuItemText'>Purta Vallarta</span><span class="menuItemArrow">&#9654;</span></a></div><div id='l_177' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='http://www.seaforthlanding.com/pages/Aztec.php'  rel='external' ><span class='menuItemText'>Aztec Sportfishing</span></a><a class='menuItem' href='http://www.bluehorizonsportfishing.com/'  rel='external' ><span class='menuItemText'>Blue Horizon Sportfishing</span></a><a class='menuItem' href='http://commandersportfishing.com/' ><span class='menuItemText'>Commander Sportfishing</span></a><a class='menuItem' href='http://www.chiefsportfishing.com/'  rel='external' ><span class='menuItemText'>Chief Sportfsihing</span></a><a class='menuItem' href='http://www.fishcondor.com/'  rel='external' ><span class='menuItemText'>Condor Sportfishing</span></a><a class='menuItem' href='http://constitutionsportfishing.com/'  rel='external' ><span class='menuItemText'>Constitution Sportfishing</span></a><a class='menuItem' href='http://www.dominatorsportfishing.com/'  rel='external' ><span class='menuItemText'>Dominator</span></a><a class='menuItem' href='http://excalibursportfishing.com'  rel='external' ><span class='menuItemText'>Excalibur Sportfishing</span></a><a class='menuItem' href='http://www.eldoradosportfishing.com/'  rel='external' ><span class='menuItemText'>Eldorado Sportfishing</span></a><a class='menuItem' href='http://www.fortunesportfishing.com/'  rel='external' ><span class='menuItemText'>Fortune Sportfishing</span></a><a class='menuItem' href='http://www.Grandesportfishing.com/'  rel='external' ><span class='menuItemText'>Grande</span></a><a class='menuItem' href='http://www.jigstrikesportfishing.com/'  rel='external' ><span class='menuItemText'>Jig Strike Sportfishing</span></a><a class='menuItem' href='http://www.legend-sportfishing.com/'  rel='external' ><span class='menuItemText'>Legend SportFishing</span></a><a class='menuItem' href='https://malihinisportfishing.com/'  rel='external' ><span class='menuItemText'>Malihini Sportfishing</span></a><a class='menuItem' href='http://mustangcharters.com/'  rel='external' ><span class='menuItemText'>Mustang Sportfishing</span></a><a class='menuItem' href='http://www.oceanodysseyfishing.com/'  rel='external' ><span class='menuItemText'>Ocean Odyssey</span></a><a class='menuItem' href='http://oldglorysportfishing.com/'  rel='external' ><span class='menuItemText'>Old Glory</span></a><a class='menuItem' href='http://pacific-queen.com/'  rel='external' ><span class='menuItemText'>Pacific Queen</span></a><a class='menuItem' href='http://prowlersportfishing.com/'  rel='external' ><span class='menuItemText'>Prowler</span></a><a class='menuItem' href='http://www.ranger85.com/'  rel='external' ><span class='menuItemText'>Ranger 85</span></a><a class='menuItem' href='http://relentless-sportfishing.com/'  rel='external' ><span class='menuItemText'>Relentless</span></a><a class='menuItem' href='http://www.therealseaadventure80.com/'  rel='external' ><span class='menuItemText'>Sea Adventure 80</span></a><a class='menuItem' href='http://www.newloansportfishing.com/'  rel='external' ><span class='menuItemText'>The New Lo-an</span></a><a class='menuItem' href='http://tributesportfishing.com/'  rel='external' ><span class='menuItemText'>Tribute Sportfishing</span></a></div><div id='l_178' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='http://www.bongossportfishing.com/'  rel='external' ><span class='menuItemText'>Bongos Sportfishing</span></a><a class='menuItem' href='http://www.eldoradosportfishing.com/'  rel='external' ><span class='menuItemText'>Eldorado Sportfishing</span></a><a class='menuItem' href='http://www. FreedomFishing.com'  rel='external' ><span class='menuItemText'>Freedom Sportfishing</span></a><a class='menuItem' href='http://www.fortunesportfishing.com/'  rel='external' ><span class='menuItemText'>Fortune Sportfishing</span></a><a class='menuItem' href='http://gailforcesportfishing.com/'  rel='external' ><span class='menuItemText'>Gail Force</span></a><a class='menuItem' href='http://www.22ndstreet.com/boats/montecarlo.php'  rel='external' ><span class='menuItemText'>Monte Carlo</span></a><a class='menuItem' href='http://www.outridersportfishing.com/'  rel='external' ><span class='menuItemText'>Outrider</span></a><a class='menuItem' href='http://www.22ndstreet.com/boats/pescador.php' ><span class='menuItemText'>Pescador Sportfishing</span></a><a class='menuItem' href='http://www.22ndstreet.com/boats/pursuit.php'  rel='external' ><span class='menuItemText'>Pursuit</span></a><a class='menuItem' href='http://www.redondospecialsportfishing.com'  rel='external' ><span class='menuItemText'>Redondo Special Sportfishing</span></a><a class='menuItem' href='http://www.spitfiresportfishing.com/'  rel='external' ><span class='menuItemText'>Spitfire Sportfishing</span></a><a class='menuItem' href='http://www.tdtraditionsportfishingcharters.com/'  rel='external' ><span class='menuItemText'>Tradition Sportfishing</span></a><a class='menuItem' href='http://tritonsportfishing.com/'  rel='external' ><span class='menuItemText'>Triton Sportfishing</span></a><a class='menuItem' href='http://www.ultrasportfishing.com/'  rel='external' ><span class='menuItemText'>Ultra Sportfishing</span></a><a class='menuItem' href='http://www.22ndstreet.com/boats/nativesun.php'  rel='external' ><span class='menuItemText'>Native Sun</span></a></div><div id='l_179' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='http://www.cobrasportfishing.com/'  rel='external' ><span class='menuItemText'>Cobra</span></a><a class='menuItem' href='https://www.stardustsportfishing.com/' ><span class='menuItemText'>Coral Sea</span></a><a class='menuItem' href='http://www.miragesportfishing.com/'  rel='external' ><span class='menuItemText'>Mirage Sportfishing</span></a><a class='menuItem' href='http://www.ranger85.com/'  rel='external' ><span class='menuItemText'>Ranger 85</span></a><a class='menuItem' href='http://pacificislandersportfishing.com/' ><span class='menuItemText'>Pacific Islander</span></a><a class='menuItem' href='https://www.stardustsportfishing.com/' ><span class='menuItemText'>Stardust</span></a></div><div id='l_315' class='menu' onmouseover="menuMouseover(event)"><a class='menuItem' href='https://www.penetratorsportfishing.com'  rel='external' ><span class='menuItemText'>Penetrator Sportfishing</span></a><a class='menuItem' href='http://constitutionsportfishing.com/'  rel='external' ><span class='menuItemText'>Constitution Sportfishing</span></a></div><a class='menuButton' href='/976contact.php' >Contact</a></div></td></tr><tr>	<td colspan='3' class='logo'></td></tr><tr>	<td colspan='3' class='logo-bottom'></td></tr><tr>  	<td class='menu-fill-left'>		<table style='width:210px' border='0' cellpadding='0' cellspacing='0'>			<tr>				<td class='leftmenu'>
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						Welcome
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<form method="post" action="https://www.976-tuna.com/e107_plugins/landing/wrapup.php">	<div style='text-align: center'>Username: 	<br />	<input class='tbox login user' type='text' name='username' id='username' size='15' value='' maxlength='50' />
+	<br />Password: 	<br />    <input class='tbox login pass' type='password' name='userpass' id='userpass' size='15' value='' maxlength='30' />
+	<br />  	<input class='button' type='submit' name='userlogin' value='Login' />  <br /><input type='checkbox' name='autologin' value='1' checked='checked' />Remember me	<br />	<br />[ <a class='login_menu_link signup' href='../../signup.php' title="Signup">Signup</a> ]	<br />[ <a class='login_menu_link fpw' href='../../fpw.php' title="Forgot password?">Forgot password?</a> ]	<br />[ <a class='login_menu_link resend' href='../../signup.php?resend' title="Resend Activation Email">Resend Activation Email</a> ]	</div>	</form>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						Online
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<strong>Guests: 2946, Members: 10 ...</strong><br /><br /><div style='OVERFLOW:auto;HEIGHT:100px;><img src='/e107_images/admin_images/users_16.png' alt='' style='vertical-align:middle' /> Ron <br><img src='/e107_images/admin_images/users_16.png' alt='' style='vertical-align:middle' /> highlinerII <br><img src='/e107_images/admin_images/users_16.png' alt='' style='vertical-align:middle' /> suenagapool <br><img src='/e107_images/admin_images/users_16.png' alt='' style='vertical-align:middle' /> derdutchman <br><img src='/e107_images/admin_images/users_16.png' alt='' style='vertical-align:middle' /> Poseidon <br><img src='/e107_images/admin_images/users_16.png' alt='' style='vertical-align:middle' /> tomfish <br><img src='/e107_images/admin_images/users_16.png' alt='' style='vertical-align:middle' /> Sea Monkey <br><img src='/e107_images/admin_images/users_16.png' alt='' style='vertical-align:middle' /> BlueSkyWhiteCloud <br><img src='/e107_images/admin_images/users_16.png' alt='' style='vertical-align:middle' /> Richie <br><img src='/e107_images/admin_images/users_16.png' alt='' style='vertical-align:middle' /> Steamfitter <br></div>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						Top Offshore News
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<div style='OVERFLOW:auto;HEIGHT:300px;text-align:center'><table style='width:100%' cellpadding='0' cellspacing='0'><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198429.3' title="Fortune Evening Report, Bob Is Live" >Fortune Evening Report, Bob Is Live</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198427.3' title="Aztec, Big Bluefin Tuna Fishing, Greg Is Live" >Aztec, Big Bluefin Tuna Fishing, Greg Is Live</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198422.3' title="New Lo-An, Good Bluefin Tuna Fishing, Markus Is Live" >New Lo-An, Good Bluefin Tuna Fishing, Markus Is Live</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198411.3' title="Fortune Afternoon Tuna Check, Bob is Live	" >Fortune Afternoon Tuna Check, Bob is Live	</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198409.3' title="Aztec Offshore Tune Report, Greg is Live	" >Aztec Offshore Tune Report, Greg is Live	</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198407.3' title="Toronado 1.5-day Wrap-up Report, Ray is Live	" >Toronado 1.5-day Wrap-up Report, Ray is Live	</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198403.3' title="Condor Trip Wrap-up Report, Jimmy is Live	" >Condor Trip Wrap-up Report, Jimmy is Live	</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198397.3' title="Freedom 1.5-Day Bluefin Tuna Wrap-up Report, Jeff is Live	" >Freedom 1.5-Day Bluefin Tuna Wrap-up Report, Jeff is Live	</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198395.3' title="Ranger 85 Wrap-up Report" >Ranger 85 Wrap-up Report</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198386.3' title="Toronado Afternoon Bluefin Tuna Report, Ray is Live	" >Toronado Afternoon Bluefin Tuna Report, Ray is Live	</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198384.3' title="Freedom Lunch Time Bluefin Tuna check, Jeff is Live	" >Freedom Lunch Time Bluefin Tuna check, Jeff is Live	</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198382.3' title="Condor Nice Day Today Fishing Bluefin Tuna, Jimmy is Live	" >Condor Nice Day Today Fishing Bluefin Tuna, Jimmy is Live	</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198380.3' title="Constitution Puerto Vallarta Photos" >Constitution Puerto Vallarta Photos</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198376.3' title="Aztec Bluefin Tuna 1.75-Day Wrap-up Report, Greg is Live" >Aztec Bluefin Tuna 1.75-Day Wrap-up Report, Greg is Live</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198373.3' title="Ranger 85 50+ Bluefin Tuna, And Hung" >Ranger 85 50+ Bluefin Tuna, And Hung</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198370.3' title="Toronado Morning Report and Trip News, Donny Is Live" >Toronado Morning Report and Trip News, Donny Is Live</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198367.3' title="Oceanside 95 1.5 Day Wrap-up Report, Rick is Live	" >Oceanside 95 1.5 Day Wrap-up Report, Rick is Live	</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198365.3' title="Pacific Queen Great trip Yesterday, Limits of Bluefin Tuna, Gavin is Live	" >Pacific Queen Great trip Yesterday, Limits of Bluefin Tuna, Gavin is Live	</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198363.3' title="Freedom Bluefin Tuna to 60_Pounds, Jeff is Live	" >Freedom Bluefin Tuna to 60_Pounds, Jeff is Live	</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews2_titlelink' style='' href='/news.php?item.198361.3' title="Mustang Good Day Bluefin Tuna Fishing, Steve is Live	" >Mustang Good Day Bluefin Tuna Fishing, Steve is Live	</a>	</td></tr></table>	</div>
+</td>
+</tr></div></table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						Top Inshore/Island News
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<div style='OVERFLOW:auto;HEIGHT:300px;text-align:center'><table style='width:100%' cellpadding='0' cellspacing='0'><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198424.104' title="Pursuit Daily Report, John Is Live" >Pursuit Daily Report, John Is Live</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198419.104' title="Freelance Good Rockfishing and More, Paul Is Live" >Freelance Good Rockfishing and More, Paul Is Live</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198416.104' title="Redondo Special, Good Bonito Fishing, Eric Is Live" >Redondo Special, Good Bonito Fishing, Eric Is Live</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198413.104' title="Spitfire,Great Fishing Wrap Up, John Is Live" >Spitfire,Great Fishing Wrap Up, John Is Live</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198400.104' title="Spitfire Wide open Bonito Fishing" >Spitfire Wide open Bonito Fishing</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198393.104' title="Pursuit Daily Report, John Is Live" >Pursuit Daily Report, John Is Live</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198388.104' title="Stardust 3/4 Day Report" >Stardust 3/4 Day Report</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198378.104' title="Eldorado San Nic Express Wrap-up Report, Jeff is Live	" >Eldorado San Nic Express Wrap-up Report, Jeff is Live	</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198359.104' title="Pursuit Daily Report And Photos" >Pursuit Daily Report And Photos</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198351.104' title="Mirage Sportfishing Wrap-up Report" >Mirage Sportfishing Wrap-up Report</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198347.104' title="Spitfire Wrap Up Report, John Is Live" >Spitfire Wrap Up Report, John Is Live</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198343.104' title="Coral Sea 3/4 day report" >Coral Sea 3/4 day report</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198341.104' title="Sea Landing, The Stardust Daily Report" >Sea Landing, The Stardust Daily Report</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198339.104' title="Native Sun Very Good Fishing Again Today, Limits, Jeff is Live" >Native Sun Very Good Fishing Again Today, Limits, Jeff is Live</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198332.104' title="Eldorado San Nicholas Wrap Up, Jeff Is Live" >Eldorado San Nicholas Wrap Up, Jeff Is Live</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198330.104' title="Pursuit Afternoon Report" >Pursuit Afternoon Report</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198323.104' title="Gail Force and Triton Weekly Lobster Report" >Gail Force and Triton Weekly Lobster Report</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198318.104' title="Native Sun Limits of Big Bonito Already, Jeff is Live	" >Native Sun Limits of Big Bonito Already, Jeff is Live	</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198314.104' title="Fortune Morning Yellowtail Report, Bob is Live	" >Fortune Morning Yellowtail Report, Bob is Live	</a>	</td></tr></table>	</div>
+</td>
+</tr><tr>
+<td class='othernews_cell' style='padding:0px;vertical-align:top ; width:100%;'>
+	<div style='padding:3px;width:100%'>	<table style='border-bottom:1px solid black;width:100%' cellpadding='0' cellspacing='0'>	<tr>	<td style='vertical-align:top;padding:3px;'>	<a class='othernews_titlelink' style='' href='/news.php?item.198306.104' title="Freelance 3/4 Day Wrap-up Report" >Freelance 3/4 Day Wrap-up Report</a>	</td></tr></table>	</div>
+</td>
+</tr></div></table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+
+
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						Random 976-TUNA Trip
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<table cellpadding="3" style="width:100%;text-align: center;">
+				<tr>
+					<td style="width:50%;border-style:solid;border-color:black;border-width: thin">Boat</td>
+					<td style="width:30%;border-style:solid;border-color:black;border-width: thin">Days</td>
+					<td style="width:20%;border-style:solid;border-color:black;border-width: thin">Tickets</td>
+				</tr>
+				<tr>
+			        <td style="border-style:solid;border-color:black;border-width: thin">Pescador</td>
+			    	<td style="border-style:solid;border-color:black;border-width: thin">1 day</td>
+			    	<td style="border-style:solid;border-color:black;border-width: thin">10</td>
+				</tr>
+				<tr>
+					<td style="width:20%;border-style:solid;border-color:black;border-width: thin" colspan="3"><strong>Departs</strong> Thu Jun 27, 09:00 PM</td>
+				</tr>
+				<tr>
+					<td style="width:20%;border-style:solid;border-color:black;border-width: thin" colspan="3"><strong>Returns</strong> Fri Jun 28, 07:00 PM</td>
+				</tr>
+				<tr>
+					<td colspan="3" style="border-style:solid;border-color:black;border-width: thin"><div style="padding:0; width:100%; height:150px; overflow:auto;"><article>
+<div style="text-align: center;">The <strong>Pescador</strong> teams up with 976-TUNA</div>
+<div><img style="float: right;" src="http://photos.976-tuna.com/wp-content/uploads/2018/10/pescador1.png" alt="" /></div>
+<div style="text-align: center;"> for a 1-day trip leaving from San Pedro Departing on Thursday June 27th,  09:00 PM. This will be a freelance trip heading to the Islands. <strong>Price is $295, Meals and permits not included and will be collected on the boat</strong>. Simply book right on line or call for reservations at <strong>310-328-8426.</strong></div>
+</article><div></td>
+				</tr>
+				<tr>
+					<td colspan="3" style="border-style:solid;border-color:black;border-width: thin"><center><a style="color:red;" href="../../e107_plugins/booking/charter-view.php?15661"><strong>Click Here to Buy Now</strong></a></center>
+				</tr>
+				</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+﻿
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						Sponsors
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+
+<div id='mysponcer' style='position:relative; padding:0; margin:0; height:400px;'>
+<style type="text/css">
+<!--
+	#p7s1content1 {
+		position: absolute;
+		width: 150px;
+		z-index: 99;
+		left: 0px;
+		top: 0px;
+		visibility: visible;
+	}
+	.pviiscroller img{
+		float:left;
+		margin:1px;
+		padding:2px;
+		border: 1px solid #000099;
+	}
+	#p7scroller1{
+		position:absolute;
+		width:150px;
+		height:400px;
+		z-index:100;
+		left: 0px;
+		top: 0px;
+		overflow: hidden;
+		clip: rect(0px 150px 400px 0px);
+		visibility: visible;
+		background-color: transparent;
+		layer-background-color: transparent;
+		border: 0px none #000099;
+		background-position: top left;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+		#quetable{
+		width:150px;
+		border:0;
+	}
+	.pviiscroller img.scrollspace{
+		border:none;
+		width:150px;
+		height:50px;
+		background-color:transparent;
+	}
+-->
+</style>
+<script type="text/javascript" src="../../e107_plugins/sponsors_menu/gwscripts.js"></script>
+<div id='p7scroller1'>
+<div id='p7s1content1'>
+<table id='quetable' border='0' cellspacing='0' cellpadding='0'>
+<tr>
+<td class='pviiscroller' style='padding-left:13px; padding-top:400px;'>
+<!-- start list -->
+<p align='center'>
+<a target=_blank href="../../e107_plugins/links_page/links.php?view.217"><img  src="../../e107_plugins/links_page/link_images/pescador.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.118"><img  src="../../e107_plugins/links_page/link_images/marinadelrey.png" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.220"><img  src="../../e107_plugins/links_page/link_images/malihini.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.168"><img  src="../../e107_plugins/links_page/link_images/redondospecial.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.4"><img  src="../../e107_plugins/links_page/link_images/pierpointlanding.gif" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.183"><img  src="../../e107_plugins/links_page/link_images/Eldorado.gif" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.27"><img  src="../../e107_plugins/links_page/link_images/newlowansmall.gif" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.193"><img  src="../../e107_plugins/links_page/link_images/toronado.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.215"><img  src="../../e107_plugins/links_page/link_images/stardust.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.129"><img  src="../../e107_plugins/links_page/link_images/promar-banner-130x130.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.90"><img  src="../../e107_plugins/links_page/link_images/outrider.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.176"><img  src="../../e107_plugins/links_page/link_images/gailforce.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.175"><img  src="../../e107_plugins/links_page/link_images/ultrasmall.gif" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.181"><img  src="../../e107_plugins/links_page/link_images/helgrens.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.167"><img  src="../../e107_plugins/links_page/link_images/aztec.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.22"><img  src="../../e107_plugins/links_page/link_images/Legend.gif" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.221"><img  src="../../e107_plugins/links_page/link_images/penetrator.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.173"><img  src="../../e107_plugins/links_page/link_images/fortune.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.208"><img  src="../../e107_plugins/links_page/link_images/aceline.png" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.198"><img  src="../../e107_plugins/links_page/link_images/triton.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.178"><img  src="../../e107_plugins/links_page/link_images/oldglory.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.157"><img  src="../../e107_plugins/links_page/link_images/mustang.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.142"><img  src="../../e107_plugins/links_page/link_images/montecarlo.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.219"><img  src="../../e107_plugins/links_page/link_images/ascent.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.210"><img  src="../../e107_plugins/links_page/link_images/stoked.png" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.93"><img  src="../../e107_plugins/links_page/link_images/prowler.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.63"><img  src="../../e107_plugins/links_page/link_images/oceanodyssey.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.200"><img  src="../../e107_plugins/links_page/link_images/nativesunsportfishing.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.186"><img  src="../../e107_plugins/links_page/link_images/tribute.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.7"><img  src="../../e107_plugins/links_page/link_images/newport.gif" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.85"><img  src="../../e107_plugins/links_page/link_images/dominator.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.218"><img  src="../../e107_plugins/links_page/link_images/excalibur.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.155"><img  src="../../e107_plugins/links_page/link_images/poseidon.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.214"><img  src="../../e107_plugins/links_page/link_images/syndicate.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.216"><img  src="../../e107_plugins/links_page/link_images/pacificislander.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.148"><img  src="../../e107_plugins/links_page/link_images/ahi.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.209"><img  src="../../e107_plugins/links_page/link_images/HSTV976.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.192"><img  src="../../e107_plugins/links_page/link_images/bluehorizon.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.45"><img  src="../../e107_plugins/links_page/link_images/spitfire.gif" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.169"><img  src="../../e107_plugins/links_page/link_images/fishermanslanding.gif" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.127"><img  src="../../e107_plugins/links_page/link_images/lbbc.png" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.8"><img  src="../../e107_plugins/links_page/link_images/daveysbanner.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.146"><img  src="../../e107_plugins/links_page/link_images/spbait2.png" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.37"><img  src="../../e107_plugins/links_page/link_images/cobra.png" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.40"><img  src="../../e107_plugins/links_page/link_images/constitution.png" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.213"><img  src="../../e107_plugins/links_page/link_images/mirage.png" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.187"><img  src="../../e107_plugins/links_page/link_images/relentless.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.67"><img  src="../../e107_plugins/links_page/link_images/condor.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.204"><img  src="../../e107_plugins/links_page/link_images/lawaterfrontsportfishing.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.69"><img  src="../../e107_plugins/links_page/link_images/pacificqueen.png" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.1"><img  src="../../e107_plugins/links_page/link_images/seaforth.gif" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.149"><img  src="../../e107_plugins/links_page/link_images/hmlanding.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.16"><img  src="../../e107_plugins/links_page/link_images/Freedom.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.162"><img  src="../../e107_plugins/links_page/link_images/ranger85.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.143"><img  src="../../e107_plugins/links_page/link_images/pursuit.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.135"><img  src="../../e107_plugins/links_page/link_images/seaadventure80.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.12"><img  src="../../e107_plugins/links_page/link_images/GrandeDominator.gif" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.170"><img  src="../../e107_plugins/links_page/link_images/pointloma.gif" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.189"><img  src="../../e107_plugins/links_page/link_images/Chief.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.61"><img  src="../../e107_plugins/links_page/link_images/bongos.jpg" width=130 height=130 ></a><br /><br /></a><a target=_blank href="../../e107_plugins/links_page/links.php?view.136"><img  src="../../e107_plugins/links_page/link_images/tradition.jpg" width=130 height=130 ></a><br /><br /></a>;
+</p>
+<!-- end list -->
+<img class='scrollspace' alt='' src='../../e107_plugins/sponsors_menu/images/blank.gif'>
+</td>
+</tr>
+</table>
+</div>
+</div>
+ <script type="text/javascript">
+<!--
+P7_setScroller('p7scroller1','p7s1content1',0,5);
+P7_runScroller('p7scroller1','Down','Slow',1,0,0,0);
+-->
+</script></div>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						RSS Feeds
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+
+<div style='text-align:center' class='smalltext'>
+Our news can be syndicated by using these rss feeds.<br />
+<div class='spacer'><a href='/e107_plugins/rss_menu/rss.php?1.1'><img src='/e107_plugins/rss_menu/images/rss1.png' alt='rss1.0' style='border:0' /></a></div>
+<div class='spacer'><a href='/e107_plugins/rss_menu/rss.php?1.2'><img src='/e107_plugins/rss_menu/images/rss2.png' alt='rss2.0' style='border:0' /></a></div>
+<div class='spacer'><a href='/e107_plugins/rss_menu/rss.php?1.3'><img src='/e107_plugins/rss_menu/images/rss3.png' alt='rdf' style='border:0' /></a><br /></div>
+</div>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						FinOracle Services
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<article><div style="text-align: center;"><a href="http://finoracle.com" rel="external"><img class="alignnone  wp-image-127709" src="http://photos.976-tuna.com/wp-content/uploads/2014/05/finoracle.png" alt="finoracle" width="181" height="60" /></a></div><div style="text-align: center;">976-TUNA 30 years of Fish Report Service Since 1985.</div><div style="text-align: center;"> </div><div style="text-align: center;">Web Site Design/Hosting Services Since 2000. </div><div style="text-align: center;"> </div><div style="text-align: center;">Media Syndication. Internet, TV, Radio, and Newspapers Since 2000.</div></article>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<script type="text/javascript">
+function bookmarksite(title, url)
+{
+   if (document.all)
+   {
+      window.external.AddFavorite(url, title);
+   }
+   else if (window.sidebar)
+   {
+      window.sidebar.addPanel(title, url, "");
+   }
+}
+</script>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						Bookmark us
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<center><a href="javascript:bookmarksite('976-TUNA The Internet Leader in Fish Reports', 'http://www.976-tuna.com/')"><img src='../../e107_plugins/addfavo_menu/images/add_bookmark5.png' border='0' /></a></center>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						Social
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<article><div style="text-align: center;"><a href="https://www.facebook.com/976tunacom/" rel="external"><img src="http://photos.976-tuna.com/wp-content/uploads/2018/10/facebook.png" alt="" width="28" height="28" /></a> <a href="https://plus.google.com/108620830720702658025" target="_blank"><img src="http://photos.976-tuna.com/wp-content/uploads/2018/10/google.png" alt="" width="28" height="28" /></a> <a href="https://twitter.com/976tuna" target="_blank"><img src="http://photos.976-tuna.com/wp-content/uploads/2018/10/twitter.png" alt="" width="28" height="28" /></a> <a href="https://www.youtube.com/user/TerrenceBerg" target="_blank"><img src="http://photos.976-tuna.com/wp-content/uploads/2018/10/youtube.png" alt="" width="28" height="28" /></a> <a href="https://www.instagram.com/976tunacom/" target="_blank"><img src="http://photos.976-tuna.com/wp-content/uploads/2018/10/instagram.png" alt="" width="28" height="28" /></a></div></article>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						Mobile Version
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<div class='smalltext'>
+<img src='../../e107_plugins/mobile/images/phoneimg_sm2.png' alt='e107mobile' style='margin: 0px 5px 0px 0px; float: left;' />
+Visit us on your mobile phone! Simply goto https://www.976-tuna.com/ on your mobile! <b>FREE</b></div>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+						</td></tr>		</table>	</td>	<td class='news-fill'>		<table style='width:570px' border='0' cellpadding='0' cellspacing='0'>			<tr><td class='news-body'>			 <table style='width: 100%;' class='fborder' border='1'>
+		<tbody>
+		<tr><td colspan='5' class='forumheader'><span class='mediumtext'>Wed Nov 14 2018, 05:54PM</span></td></tr>
+		<tr>
+		<td style='width: 20%; text-align: center;' class='fcaption'>Daily Wrapup</td>
+		<td style='width: 8%; text-align: center;' class='fcaption'>Boats</td>
+		<td style='width: 7%; text-align: center;' class='fcaption'>Anglers</td>
+		<td style='width: 60%; text-align: center;' class='fcaption'>Fish</td>
+		<td style='width: 5%; text-align: center;' class='fcaption'>Media</td>
+		</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'>All Landings</td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>31</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>593</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+				260 Bluefin Tuna
+
+
+
+
+				4 Yellowtail
+
+
+
+
+				161 Calico Bass
+				71 Sand Bass
+
+				106 Sheephead
+				672 Whitefish
+
+				87 Bocaccio
+				1970 Rockfish
+				346 Bonito
+				74 Lingcod
+				<font color='red'></font>
+
+
+				124 Perch
+
+				1 trigger fish
+
+
+
+
+
+
+
+				201 Red Snapper
+
+
+
+
+
+
+
+
+
+				28 Lobster
+
+
+
+				<font color='red'>262 Calico Bass Released</font>
+				<font color='red'>11 Sand Bass Released</font>
+				<font color='red'></font>
+				78 Lobster Released
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.1' title='Point Loma'>Point Loma</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>2</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>36</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+				68 Bluefin Tuna
+
+
+
+
+
+
+
+
+
+				1 Calico Bass
+
+
+				4 Sheephead
+				4 Whitefish
+
+
+				116 Rockfish
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'></font>
+				<font color='red'></font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.2' title='Fishermans'>Fisherman's</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>1</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>27</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+				24 Bluefin Tuna
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'></font>
+				<font color='red'></font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.3' title='H&M Landing'>H&M Landing</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>3</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>38</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+				48 Bluefin Tuna
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				28 Lobster
+
+
+
+				<font color='red'></font>
+				<font color='red'></font>
+				<font color='red'></font>
+				78 Lobster Released
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.4' title='Seaforth'>Seaforth</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>2</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>46</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+
+
+
+
+
+
+
+
+
+
+
+				5 Sand Bass
+
+				13 Sheephead
+				24 Whitefish
+
+
+				142 Rockfish
+
+				1 Lingcod
+
+
+
+
+
+
+
+
+
+
+
+
+
+				46 Red Snapper
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'></font>
+				<font color='red'></font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.6' title='Helgrens Oceanside'>Helgren's Oceanside</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>1</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>20</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+
+
+
+
+
+				1 Yellowtail
+
+
+
+
+				1 Calico Bass
+				2 Sand Bass
+
+				2 Sheephead
+				24 Whitefish
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'></font>
+				<font color='red'></font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.7' title='Dana Wharf'>Dana Wharf</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>1</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>19</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+
+
+
+
+
+
+
+
+
+
+				14 Calico Bass
+				6 Sand Bass
+
+				8 Sheephead
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'>59 Calico Bass Released</font>
+				<font color='red'></font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.8' title='Daveys Locker'>Davey's Locker</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>1</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>45</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				1 Sheephead
+				204 Whitefish
+
+				55 Bocaccio
+				375 Rockfish
+				1 Bonito
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				10 Red Snapper
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'></font>
+				<font color='red'></font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.9' title='Newport Landing'>Newport Landing</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>1</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>29</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				35 Whitefish
+
+
+				232 Rockfish
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'></font>
+				<font color='red'></font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.10' title='Pierpoint Landing'>Pierpoint Landing</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>2</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>29</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+				21 Bluefin Tuna
+
+
+
+
+
+
+
+
+
+
+
+
+				31 Sheephead
+				29 Whitefish
+
+
+				31 Rockfish
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				25 Red Snapper
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'></font>
+				<font color='red'></font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.12' title='Long Beach Sportfishing'>Long Beach Sportfishing</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>2</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>43</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+
+
+
+
+
+				1 Yellowtail
+
+
+
+
+				8 Calico Bass
+				9 Sand Bass
+
+				2 Sheephead
+				111 Whitefish
+
+
+				35 Rockfish
+				41 Bonito
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'>45 Calico Bass Released</font>
+				<font color='red'>10 Sand Bass Released</font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.14' title='San Pedro 22nd Street Marina'>San Pedro 22nd Street Marina</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>2</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>72</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+				30 Bluefin Tuna
+
+
+
+
+				2 Yellowtail
+
+
+
+
+				25 Calico Bass
+
+
+				19 Sheephead
+				38 Whitefish
+
+				22 Bocaccio
+				110 Rockfish
+				135 Bonito
+
+
+
+
+				56 Perch
+
+
+
+
+
+
+
+
+
+				10 Red Snapper
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'></font>
+				<font color='red'></font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.16' title='Marina Del Rey'>Marina Del Rey</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>3</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>51</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+
+
+
+
+
+
+
+
+
+
+				17 Calico Bass
+				48 Sand Bass
+
+				11 Sheephead
+				36 Whitefish
+
+
+				181 Rockfish
+				163 Bonito
+				5 Lingcod
+
+
+
+
+
+				1 trigger fish
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'>150 Calico Bass Released</font>
+				<font color='red'></font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'><a href='audio.php?landing.16' target='new'>play</a></td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.18' title='Channel Islands Sportfishing'>Channel Islands Sportfishing</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>5</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>75</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+				69 Bluefin Tuna
+
+
+
+
+
+
+
+
+
+				72 Calico Bass
+
+
+				9 Sheephead
+				37 Whitefish
+
+
+				348 Rockfish
+				6 Bonito
+				15 Lingcod
+
+
+
+				68 Perch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'></font>
+				<font color='red'></font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.21' title='Virgs Landing'>Virg's Landing</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>1</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>24</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				10 Bocaccio
+				130 Rockfish
+
+				48 Lingcod
+
+
+
+
+
+
+
+
+
+
+
+
+
+				100 Red Snapper
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'></font>
+				<font color='red'></font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.27' title='Hooks Landing'>Hook's Landing</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>1</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>9</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+
+
+
+
+
+
+
+
+
+
+				22 Calico Bass
+
+
+
+				30 Whitefish
+
+
+				50 Rockfish
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'></font>
+				<font color='red'></font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.36' title='Ventura Sportfishing'>Ventura Sportfishing</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>1</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>11</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				5 Sheephead
+				100 Whitefish
+
+
+				110 Rockfish
+
+				4 Lingcod
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'></font>
+				<font color='red'></font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.39' title='Morro Bay Landing'>Morro Bay Landing</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>1</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>12</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				110 Rockfish
+
+				1 Lingcod
+
+
+
+
+
+
+
+
+
+
+
+
+
+				10 Red Snapper
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'></font>
+				<font color='red'></font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr>
+				<tr>
+				<td style='width: 20%; text-align: left;' class='forumheader2'><a href='../../e107_plugins/landing/landing2.php?landingmonth.40' title='Oceanside Sea Center'>Oceanside Sea Center</a></td>
+				<td style='width: 8%; text-align: center;' class='forumheader2'>1</td>
+				<td style='width: 7%; text-align: center;' class='forumheader3'>7</td>
+				<td style='width: 60%; text-align: left;' class='forumheader3'><span class='smallblacktext'>
+
+
+
+
+
+
+
+
+
+
+
+				1 Calico Bass
+				1 Sand Bass
+
+				1 Sheephead
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<font color='red'>8 Calico Bass Released</font>
+				<font color='red'>1 Sand Bass Released</font>
+				<font color='red'></font>
+
+
+
+
+
+
+						</span></td>
+				<td style='width: 5%; text-align: center;' class='forumheader3'>&nbsp;</td>
+				</tr></table>		</td>		</tr></table>		</td>		<td class='menu-fill-right'>		<table style='width:210px' border='0' cellpadding='0' cellspacing='0'>		  	<tr><td class='rightmenu'>
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						On This Day, History
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<article>
+				<div>
+					<iframe width='100%' src='http://www.976-tuna.com/audio-on-this-day-menu.php?year=1'  frameBorder='0'></iframe>
+				</div>
+			</article>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+﻿﻿<h4 class='moonphasecaption'><span>Moon Phase</span></h4>
+			<div class='moonphasemenu'>
+			<div class='moonphasecontent'>
+			<img src="../../e107_plugins/moon_menu/images_moon/moon6.png" style="width:50px; height:50px; border:none;" title="6"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Moon age: 6<br><br>waxing crescent<br>distance: 63.6069390633<br>latitude: -0.837249321104<br>longitude: 309.248924876<br>
+			</div>
+			</div>
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						2018 Yellowfin Tuna Totals
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<div style=";OVERFLOW: auto; WIDTH: 100%; HEIGHT: 100px; text-align: center"><table class="fborder" style="width:100%">
+			Fleet Total Yellow fin 112723<br /><tr><strong>
+				<td class="forumheader2">Boat</td>
+				<td class="forumheader2">Total</td>
+			</strong>
+			</tr>
+<tr>
+			<td class="forumheader3">Old Glory</td>
+			<td class="forumheader3">7508</td>
+		</tr><tr>
+			<td class="forumheader3">Tribute</td>
+			<td class="forumheader3">6147</td>
+		</tr><tr>
+			<td class="forumheader3">Pacific Queen</td>
+			<td class="forumheader3">4138</td>
+		</tr><tr>
+			<td class="forumheader3">Ranger 85</td>
+			<td class="forumheader3">4059</td>
+		</tr><tr>
+			<td class="forumheader3">Legend</td>
+			<td class="forumheader3">3783</td>
+		</tr><tr>
+			<td class="forumheader3">Ocean Odyssey</td>
+			<td class="forumheader3">3753</td>
+		</tr><tr>
+			<td class="forumheader3">Condor</td>
+			<td class="forumheader3">3687</td>
+		</tr><tr>
+			<td class="forumheader3">Aztec</td>
+			<td class="forumheader3">3407</td>
+		</tr><tr>
+			<td class="forumheader3">Constitution</td>
+			<td class="forumheader3">3201</td>
+		</tr><tr>
+			<td class="forumheader3">Sea Adventure 80</td>
+			<td class="forumheader3">2689</td>
+		</tr><tr>
+			<td class="forumheader3">Grande</td>
+			<td class="forumheader3">2520</td>
+		</tr><tr>
+			<td class="forumheader3">Prowler</td>
+			<td class="forumheader3">2383</td>
+		</tr><tr>
+			<td class="forumheader3">Fortune</td>
+			<td class="forumheader3">2331</td>
+		</tr><tr>
+			<td class="forumheader3">Mustang</td>
+			<td class="forumheader3">2325</td>
+		</tr><tr>
+			<td class="forumheader3">Poseidon</td>
+			<td class="forumheader3">2306</td>
+		</tr><tr>
+			<td class="forumheader3">Relentless</td>
+			<td class="forumheader3">2162</td>
+		</tr><tr>
+			<td class="forumheader3">New Lo-An</td>
+			<td class="forumheader3">2119</td>
+		</tr><tr>
+			<td class="forumheader3">Chief</td>
+			<td class="forumheader3">1103</td>
+		</tr><tr>
+			<td class="forumheader3">Jig Strike</td>
+			<td class="forumheader3">540</td>
+		</tr><tr>
+			<td class="forumheader3">Alicia</td>
+			<td class="forumheader3">174</td>
+		</tr><tr>
+			<td class="forumheader3">Triton</td>
+			<td class="forumheader3">165</td>
+		</tr><tr>
+			<td class="forumheader3">Eldorado</td>
+			<td class="forumheader3">104</td>
+		</tr><tr>
+			<td class="forumheader3">Bongos III</td>
+			<td class="forumheader3">95</td>
+		</tr><tr>
+			<td class="forumheader3">Outrider</td>
+			<td class="forumheader3">78</td>
+		</tr><tr>
+			<td class="forumheader3">Sea Adventure</td>
+			<td class="forumheader3">71</td>
+		</tr><tr>
+			<td class="forumheader3">Thunderbird</td>
+			<td class="forumheader3">51</td>
+		</tr><tr>
+			<td class="forumheader3">Freedom</td>
+			<td class="forumheader3">49</td>
+		</tr><tr>
+			<td class="forumheader3">Toronado</td>
+			<td class="forumheader3">40</td>
+		</tr><tr>
+			<td class="forumheader3">Ultra</td>
+			<td class="forumheader3">22</td>
+		</tr><tr>
+			<td class="forumheader3">Blue Horizon</td>
+			<td class="forumheader3">1</td>
+		</tr></table>
+<p>
+<p class="forumheader2" style="padding:6px;">
+The Accuracy of these reports are based apon the coperation of the Landings and Boats in reporting. Thank you</p>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						2018 Blue fin Tuna Totals
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<div style=";OVERFLOW: auto; WIDTH: 100%; HEIGHT: 100px; text-align: center"><table class="fborder" style="width:100%">
+			Total Blue Fin 12713<br /><tr><strong>
+				<td class="forumheader2">Boat</td>
+				<td class="forumheader2">Total</td>
+			</strong>
+			</tr>
+<tr>
+						<td class="forumheader3">New Lo-An</td>
+						<td class="forumheader3">1401</td>
+					</tr><tr>
+						<td class="forumheader3">Pacific Queen</td>
+						<td class="forumheader3">1222</td>
+					</tr><tr>
+						<td class="forumheader3">Freedom</td>
+						<td class="forumheader3">764</td>
+					</tr><tr>
+						<td class="forumheader3">Toronado</td>
+						<td class="forumheader3">600</td>
+					</tr><tr>
+						<td class="forumheader3">Aztec</td>
+						<td class="forumheader3">548</td>
+					</tr><tr>
+						<td class="forumheader3">Ranger 85</td>
+						<td class="forumheader3">451</td>
+					</tr><tr>
+						<td class="forumheader3">Thunderbird</td>
+						<td class="forumheader3">443</td>
+					</tr><tr>
+						<td class="forumheader3">Prowler</td>
+						<td class="forumheader3">425</td>
+					</tr><tr>
+						<td class="forumheader3">Chief</td>
+						<td class="forumheader3">321</td>
+					</tr><tr>
+						<td class="forumheader3">Fortune</td>
+						<td class="forumheader3">301</td>
+					</tr><tr>
+						<td class="forumheader3">Mustang</td>
+						<td class="forumheader3">283</td>
+					</tr><tr>
+						<td class="forumheader3">Tribute</td>
+						<td class="forumheader3">275</td>
+					</tr><tr>
+						<td class="forumheader3">Old Glory</td>
+						<td class="forumheader3">230</td>
+					</tr><tr>
+						<td class="forumheader3">Condor</td>
+						<td class="forumheader3">226</td>
+					</tr><tr>
+						<td class="forumheader3">Constitution</td>
+						<td class="forumheader3">200</td>
+					</tr><tr>
+						<td class="forumheader3">Sea Adventure 80</td>
+						<td class="forumheader3">185</td>
+					</tr><tr>
+						<td class="forumheader3">Outrider</td>
+						<td class="forumheader3">131</td>
+					</tr><tr>
+						<td class="forumheader3">Eldorado</td>
+						<td class="forumheader3">130</td>
+					</tr><tr>
+						<td class="forumheader3">Ultra</td>
+						<td class="forumheader3">128</td>
+					</tr><tr>
+						<td class="forumheader3">Ocean Odyssey</td>
+						<td class="forumheader3">117</td>
+					</tr><tr>
+						<td class="forumheader3">Poseidon</td>
+						<td class="forumheader3">113</td>
+					</tr><tr>
+						<td class="forumheader3">Grande</td>
+						<td class="forumheader3">111</td>
+					</tr><tr>
+						<td class="forumheader3">Relentless</td>
+						<td class="forumheader3">37</td>
+					</tr><tr>
+						<td class="forumheader3">Legend</td>
+						<td class="forumheader3">37</td>
+					</tr><tr>
+						<td class="forumheader3">Blue Horizon</td>
+						<td class="forumheader3">10</td>
+					</tr><tr>
+						<td class="forumheader3">Chubasco III</td>
+						<td class="forumheader3">6</td>
+					</tr><tr>
+						<td class="forumheader3">Alicia</td>
+						<td class="forumheader3">4</td>
+					</tr></table>
+<p>
+<p class="forumheader2" style="padding:6px;">
+The Accuracy of these reports are based on their cooperation of the Landings and Boats in reporting. Thank you</p>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						2017 Dorado Totals
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<div style=";OVERFLOW: auto; WIDTH: 100%; HEIGHT: 100px; text-align: center"><table class="fborder" style="width:100%">
+			Fleet Total Dorado 33713<br /><tr><strong>
+				<td class="forumheader2">Boat</td>
+				<td class="forumheader2">Total</td>
+			</strong>
+			</tr>
+<tr>
+			<td class="forumheader3">Old Glory</td>
+			<td class="forumheader3">1547</td>
+		</tr><tr>
+			<td class="forumheader3">Tribute</td>
+			<td class="forumheader3">1418</td>
+		</tr><tr>
+			<td class="forumheader3">Condor</td>
+			<td class="forumheader3">1293</td>
+		</tr><tr>
+			<td class="forumheader3">Legend</td>
+			<td class="forumheader3">1266</td>
+		</tr><tr>
+			<td class="forumheader3">Ocean Odyssey</td>
+			<td class="forumheader3">1222</td>
+		</tr><tr>
+			<td class="forumheader3">Grande</td>
+			<td class="forumheader3">1171</td>
+		</tr><tr>
+			<td class="forumheader3">Constitution</td>
+			<td class="forumheader3">1171</td>
+		</tr><tr>
+			<td class="forumheader3">Pacific Queen</td>
+			<td class="forumheader3">1024</td>
+		</tr><tr>
+			<td class="forumheader3">Sea Adventure 80</td>
+			<td class="forumheader3">1013</td>
+		</tr><tr>
+			<td class="forumheader3">New Lo-An</td>
+			<td class="forumheader3">989</td>
+		</tr><tr>
+			<td class="forumheader3">Prowler</td>
+			<td class="forumheader3">866</td>
+		</tr><tr>
+			<td class="forumheader3">Ranger 85</td>
+			<td class="forumheader3">848</td>
+		</tr><tr>
+			<td class="forumheader3">Aztec</td>
+			<td class="forumheader3">787</td>
+		</tr><tr>
+			<td class="forumheader3">Mustang</td>
+			<td class="forumheader3">763</td>
+		</tr><tr>
+			<td class="forumheader3">Relentless</td>
+			<td class="forumheader3">621</td>
+		</tr><tr>
+			<td class="forumheader3">Poseidon</td>
+			<td class="forumheader3">552</td>
+		</tr><tr>
+			<td class="forumheader3">Fortune</td>
+			<td class="forumheader3">437</td>
+		</tr><tr>
+			<td class="forumheader3">Chief</td>
+			<td class="forumheader3">370</td>
+		</tr><tr>
+			<td class="forumheader3">Jig Strike</td>
+			<td class="forumheader3">163</td>
+		</tr><tr>
+			<td class="forumheader3">Bongos III</td>
+			<td class="forumheader3">139</td>
+		</tr><tr>
+			<td class="forumheader3">Eldorado</td>
+			<td class="forumheader3">94</td>
+		</tr><tr>
+			<td class="forumheader3">Ultra</td>
+			<td class="forumheader3">76</td>
+		</tr><tr>
+			<td class="forumheader3">Triton</td>
+			<td class="forumheader3">60</td>
+		</tr><tr>
+			<td class="forumheader3">Sea Adventure</td>
+			<td class="forumheader3">56</td>
+		</tr><tr>
+			<td class="forumheader3">Alicia</td>
+			<td class="forumheader3">49</td>
+		</tr><tr>
+			<td class="forumheader3">Freedom</td>
+			<td class="forumheader3">38</td>
+		</tr><tr>
+			<td class="forumheader3">Pursuit</td>
+			<td class="forumheader3">31</td>
+		</tr><tr>
+			<td class="forumheader3">Toronado</td>
+			<td class="forumheader3">24</td>
+		</tr><tr>
+			<td class="forumheader3">Sport King</td>
+			<td class="forumheader3">17</td>
+		</tr><tr>
+			<td class="forumheader3">Outrider</td>
+			<td class="forumheader3">15</td>
+		</tr><tr>
+			<td class="forumheader3">Gail Force</td>
+			<td class="forumheader3">8</td>
+		</tr><tr>
+			<td class="forumheader3">Enterprise</td>
+			<td class="forumheader3">7</td>
+		</tr><tr>
+			<td class="forumheader3">Spitfire</td>
+			<td class="forumheader3">2</td>
+		</tr><tr>
+			<td class="forumheader3">No Drama</td>
+			<td class="forumheader3">1</td>
+		</tr><tr>
+			<td class="forumheader3">Tradition</td>
+			<td class="forumheader3">1</td>
+		</tr><tr>
+			<td class="forumheader3">Blue Horizon</td>
+			<td class="forumheader3">1</td>
+		</tr></table>
+<p>
+<p class="forumheader2" style="padding:6px;">
+The Accuracy of these reports are based apon the coperation of the Landings and Boats in reporting. Thank you</p>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						2018 Yellowtail Totals
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<div style=";OVERFLOW: auto; WIDTH: 100%; HEIGHT: 100px; text-align: center"><table class="fborder" style="width:100%">
+			Fleet Total Yellowtail 78286<br /><tr><strong>
+				<td class="forumheader2">Boat</td>
+				<td class="forumheader2">Total</td>
+			</strong>
+			</tr>
+<tr>
+			<td class="forumheader3">Grande</td>
+			<td class="forumheader3">3157</td>
+		</tr><tr>
+			<td class="forumheader3">Old Glory</td>
+			<td class="forumheader3">1654</td>
+		</tr><tr>
+			<td class="forumheader3">Condor</td>
+			<td class="forumheader3">1632</td>
+		</tr><tr>
+			<td class="forumheader3">Pursuit</td>
+			<td class="forumheader3">1588</td>
+		</tr><tr>
+			<td class="forumheader3">Thunderbird</td>
+			<td class="forumheader3">1541</td>
+		</tr><tr>
+			<td class="forumheader3">Pacific Queen</td>
+			<td class="forumheader3">1486</td>
+		</tr><tr>
+			<td class="forumheader3">Tribute</td>
+			<td class="forumheader3">1405</td>
+		</tr><tr>
+			<td class="forumheader3">Ocean Odyssey</td>
+			<td class="forumheader3">1373</td>
+		</tr><tr>
+			<td class="forumheader3">Constitution</td>
+			<td class="forumheader3">1219</td>
+		</tr><tr>
+			<td class="forumheader3">Relentless</td>
+			<td class="forumheader3">1150</td>
+		</tr><tr>
+			<td class="forumheader3">Mustang</td>
+			<td class="forumheader3">1114</td>
+		</tr><tr>
+			<td class="forumheader3">Freedom</td>
+			<td class="forumheader3">1034</td>
+		</tr><tr>
+			<td class="forumheader3">Legend</td>
+			<td class="forumheader3">1032</td>
+		</tr><tr>
+			<td class="forumheader3">New Lo-An</td>
+			<td class="forumheader3">981</td>
+		</tr><tr>
+			<td class="forumheader3">Aztec</td>
+			<td class="forumheader3">799</td>
+		</tr><tr>
+			<td class="forumheader3">Toronado</td>
+			<td class="forumheader3">785</td>
+		</tr><tr>
+			<td class="forumheader3">Ranger 85</td>
+			<td class="forumheader3">746</td>
+		</tr><tr>
+			<td class="forumheader3">Fortune</td>
+			<td class="forumheader3">698</td>
+		</tr><tr>
+			<td class="forumheader3">Ultra</td>
+			<td class="forumheader3">662</td>
+		</tr><tr>
+			<td class="forumheader3">Prowler</td>
+			<td class="forumheader3">655</td>
+		</tr><tr>
+			<td class="forumheader3">Eldorado</td>
+			<td class="forumheader3">614</td>
+		</tr><tr>
+			<td class="forumheader3">Chief</td>
+			<td class="forumheader3">464</td>
+		</tr><tr>
+			<td class="forumheader3">Sport King</td>
+			<td class="forumheader3">451</td>
+		</tr><tr>
+			<td class="forumheader3">Poseidon</td>
+			<td class="forumheader3">415</td>
+		</tr><tr>
+			<td class="forumheader3">Outrider</td>
+			<td class="forumheader3">404</td>
+		</tr><tr>
+			<td class="forumheader3">Cobra</td>
+			<td class="forumheader3">387</td>
+		</tr><tr>
+			<td class="forumheader3">Enterprise</td>
+			<td class="forumheader3">298</td>
+		</tr><tr>
+			<td class="forumheader3">Sea Adventure 80</td>
+			<td class="forumheader3">198</td>
+		</tr><tr>
+			<td class="forumheader3">Mirage</td>
+			<td class="forumheader3">189</td>
+		</tr><tr>
+			<td class="forumheader3">Triton</td>
+			<td class="forumheader3">187</td>
+		</tr><tr>
+			<td class="forumheader3">City of Long Beach</td>
+			<td class="forumheader3">133</td>
+		</tr><tr>
+			<td class="forumheader3">Jig Strike</td>
+			<td class="forumheader3">97</td>
+		</tr><tr>
+			<td class="forumheader3">Alicia</td>
+			<td class="forumheader3">95</td>
+		</tr><tr>
+			<td class="forumheader3">Chubasco III</td>
+			<td class="forumheader3">82</td>
+		</tr><tr>
+			<td class="forumheader3">Monte Carlo</td>
+			<td class="forumheader3">68</td>
+		</tr><tr>
+			<td class="forumheader3">Victory</td>
+			<td class="forumheader3">60</td>
+		</tr><tr>
+			<td class="forumheader3">Redondo Special</td>
+			<td class="forumheader3">60</td>
+		</tr><tr>
+			<td class="forumheader3">Bongos III</td>
+			<td class="forumheader3">55</td>
+		</tr><tr>
+			<td class="forumheader3">Pacific Islander</td>
+			<td class="forumheader3">44</td>
+		</tr><tr>
+			<td class="forumheader3">Tradition</td>
+			<td class="forumheader3">38</td>
+		</tr><tr>
+			<td class="forumheader3">Gail Force</td>
+			<td class="forumheader3">37</td>
+		</tr><tr>
+			<td class="forumheader3">New Del Mar</td>
+			<td class="forumheader3">25</td>
+		</tr><tr>
+			<td class="forumheader3">Spitfire</td>
+			<td class="forumheader3">11</td>
+		</tr><tr>
+			<td class="forumheader3">Blue Horizon</td>
+			<td class="forumheader3">8</td>
+		</tr><tr>
+			<td class="forumheader3">Stardust</td>
+			<td class="forumheader3">2</td>
+		</tr><tr>
+			<td class="forumheader3">No Drama</td>
+			<td class="forumheader3">1</td>
+		</tr><tr>
+			<td class="forumheader3">Coral Sea</td>
+			<td class="forumheader3">1</td>
+		</tr></table>
+<p>
+<p class="forumheader2" style="padding:6px;">
+The Accuracy of these reports are based upon the cooperation of the Landings and Boats in reporting. Thank you</p>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						2017 Seabass Totals
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<div style=";OVERFLOW: auto; WIDTH: 100%; HEIGHT: 100px; text-align: center"><table class="fborder" style="width:100%">
+
+			Fleet Total Seabass 6065<br /><tr><strong>
+				<td class="forumheader2">Boat</td>
+				<td class="forumheader2">Total</td>
+			</strong>
+			</tr>
+<tr>
+			<td class="forumheader3">Mirage</td>
+			<td class="forumheader3">587</td>
+		</tr><tr>
+			<td class="forumheader3">Ranger 85</td>
+			<td class="forumheader3">400</td>
+		</tr><tr>
+			<td class="forumheader3">Fortune</td>
+			<td class="forumheader3">396</td>
+		</tr><tr>
+			<td class="forumheader3">Pacific Islander</td>
+			<td class="forumheader3">304</td>
+		</tr><tr>
+			<td class="forumheader3">Freedom</td>
+			<td class="forumheader3">303</td>
+		</tr><tr>
+			<td class="forumheader3">Ultra</td>
+			<td class="forumheader3">201</td>
+		</tr><tr>
+			<td class="forumheader3">Outrider</td>
+			<td class="forumheader3">186</td>
+		</tr><tr>
+			<td class="forumheader3">Eldorado</td>
+			<td class="forumheader3">130</td>
+		</tr><tr>
+			<td class="forumheader3">Cobra</td>
+			<td class="forumheader3">117</td>
+		</tr><tr>
+			<td class="forumheader3">Thunderbird</td>
+			<td class="forumheader3">113</td>
+		</tr><tr>
+			<td class="forumheader3">Toronado</td>
+			<td class="forumheader3">76</td>
+		</tr><tr>
+			<td class="forumheader3">Chubasco III</td>
+			<td class="forumheader3">64</td>
+		</tr><tr>
+			<td class="forumheader3">Sport King</td>
+			<td class="forumheader3">44</td>
+		</tr><tr>
+			<td class="forumheader3">Pursuit</td>
+			<td class="forumheader3">44</td>
+		</tr><tr>
+			<td class="forumheader3">Spitfire</td>
+			<td class="forumheader3">25</td>
+		</tr><tr>
+			<td class="forumheader3">Redondo Special</td>
+			<td class="forumheader3">15</td>
+		</tr><tr>
+			<td class="forumheader3">New Del Mar</td>
+			<td class="forumheader3">8</td>
+		</tr><tr>
+			<td class="forumheader3">Monte Carlo</td>
+			<td class="forumheader3">3</td>
+		</tr><tr>
+			<td class="forumheader3">Chief</td>
+			<td class="forumheader3">3</td>
+		</tr><tr>
+			<td class="forumheader3">Victory</td>
+			<td class="forumheader3">2</td>
+		</tr><tr>
+			<td class="forumheader3">Bongos III</td>
+			<td class="forumheader3">1</td>
+		</tr><tr>
+			<td class="forumheader3">Enterprise</td>
+			<td class="forumheader3">1</td>
+		</tr><tr>
+			<td class="forumheader3">Tradition</td>
+			<td class="forumheader3">1</td>
+		</tr><tr>
+			<td class="forumheader3">Blue Horizon</td>
+			<td class="forumheader3">1</td>
+		</tr></table>
+<p>
+<p class="forumheader2" style="padding:6px;">
+The Accuracy of these reports are based upon the cooperation of the Landings and Boats in reporting. Thank you</p>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						2018 Calico Bass Totals
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<div style=";OVERFLOW: auto; WIDTH: 100%; HEIGHT: 100px; text-align: center"><table class="fborder" style="width:100%">
+			Fleet Total Calico 109719<br /><tr><strong>
+				<td class="forumheader2">Boat</td>
+				<td class="forumheader2">Total</td>
+			</strong>
+			</tr>
+<tr>
+			<td class="forumheader3">Pursuit</td>
+			<td class="forumheader3">4292</td>
+		</tr><tr>
+			<td class="forumheader3">Sport King</td>
+			<td class="forumheader3">3097</td>
+		</tr><tr>
+			<td class="forumheader3">Thunderbird</td>
+			<td class="forumheader3">2889</td>
+		</tr><tr>
+			<td class="forumheader3">Freedom</td>
+			<td class="forumheader3">2594</td>
+		</tr><tr>
+			<td class="forumheader3">Spitfire</td>
+			<td class="forumheader3">2512</td>
+		</tr><tr>
+			<td class="forumheader3">Enterprise</td>
+			<td class="forumheader3">2439</td>
+		</tr><tr>
+			<td class="forumheader3">New Del Mar</td>
+			<td class="forumheader3">1859</td>
+		</tr><tr>
+			<td class="forumheader3">Redondo Special</td>
+			<td class="forumheader3">1737</td>
+		</tr><tr>
+			<td class="forumheader3">Victory</td>
+			<td class="forumheader3">1526</td>
+		</tr><tr>
+			<td class="forumheader3">Ultra</td>
+			<td class="forumheader3">1176</td>
+		</tr><tr>
+			<td class="forumheader3">Toronado</td>
+			<td class="forumheader3">1141</td>
+		</tr><tr>
+			<td class="forumheader3">Monte Carlo</td>
+			<td class="forumheader3">1087</td>
+		</tr><tr>
+			<td class="forumheader3">Tradition</td>
+			<td class="forumheader3">904</td>
+		</tr><tr>
+			<td class="forumheader3">Outrider</td>
+			<td class="forumheader3">874</td>
+		</tr><tr>
+			<td class="forumheader3">Cobra</td>
+			<td class="forumheader3">820</td>
+		</tr><tr>
+			<td class="forumheader3">City of Long Beach</td>
+			<td class="forumheader3">731</td>
+		</tr><tr>
+			<td class="forumheader3">Grande</td>
+			<td class="forumheader3">615</td>
+		</tr><tr>
+			<td class="forumheader3">Fortune</td>
+			<td class="forumheader3">391</td>
+		</tr><tr>
+			<td class="forumheader3">Chubasco III</td>
+			<td class="forumheader3">298</td>
+		</tr><tr>
+			<td class="forumheader3">Chief</td>
+			<td class="forumheader3">261</td>
+		</tr><tr>
+			<td class="forumheader3">Relentless</td>
+			<td class="forumheader3">218</td>
+		</tr><tr>
+			<td class="forumheader3">Mirage</td>
+			<td class="forumheader3">175</td>
+		</tr><tr>
+			<td class="forumheader3">Jig Strike</td>
+			<td class="forumheader3">158</td>
+		</tr><tr>
+			<td class="forumheader3">Eldorado</td>
+			<td class="forumheader3">151</td>
+		</tr><tr>
+			<td class="forumheader3">Coral Sea</td>
+			<td class="forumheader3">143</td>
+		</tr><tr>
+			<td class="forumheader3">Stardust</td>
+			<td class="forumheader3">103</td>
+		</tr><tr>
+			<td class="forumheader3">Alicia</td>
+			<td class="forumheader3">93</td>
+		</tr><tr>
+			<td class="forumheader3">Gail Force</td>
+			<td class="forumheader3">91</td>
+		</tr><tr>
+			<td class="forumheader3">Tribute</td>
+			<td class="forumheader3">70</td>
+		</tr><tr>
+			<td class="forumheader3">Pacific Islander</td>
+			<td class="forumheader3">60</td>
+		</tr><tr>
+			<td class="forumheader3">Blue Horizon</td>
+			<td class="forumheader3">56</td>
+		</tr><tr>
+			<td class="forumheader3">Bongos III</td>
+			<td class="forumheader3">55</td>
+		</tr><tr>
+			<td class="forumheader3">Prowler</td>
+			<td class="forumheader3">35</td>
+		</tr><tr>
+			<td class="forumheader3">Aztec</td>
+			<td class="forumheader3">35</td>
+		</tr><tr>
+			<td class="forumheader3">Triton</td>
+			<td class="forumheader3">29</td>
+		</tr><tr>
+			<td class="forumheader3">Sea Adventure 80</td>
+			<td class="forumheader3">21</td>
+		</tr><tr>
+			<td class="forumheader3">Ranger 85</td>
+			<td class="forumheader3">15</td>
+		</tr><tr>
+			<td class="forumheader3">No Drama</td>
+			<td class="forumheader3">6</td>
+		</tr></table>
+<p>
+<p class="forumheader2" style="padding:6px;">
+The Accuracy of these reports are based upon the cooperation of the Landings and Boats in reporting. Thank you</p>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						2018 Sand Bass Totals
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<div style=";OVERFLOW: auto; WIDTH: 100%; HEIGHT: 100px; text-align: center"><table class="fborder" style="width:100%">Fleet Total Sand Bass 25515<br /><tr><strong>
+				<td class="forumheader2">Boat</td>
+				<td class="forumheader2">Total</td>
+			</strong>
+			</tr>
+<tr>
+		<td class="forumheader3">New Del Mar</td>
+			<td class="forumheader3">1613</td>
+		</tr><tr>
+		<td class="forumheader3">City of Long Beach</td>
+			<td class="forumheader3">1208</td>
+		</tr><tr>
+		<td class="forumheader3">Spitfire</td>
+			<td class="forumheader3">1042</td>
+		</tr><tr>
+		<td class="forumheader3">Monte Carlo</td>
+			<td class="forumheader3">755</td>
+		</tr><tr>
+		<td class="forumheader3">Victory</td>
+			<td class="forumheader3">683</td>
+		</tr><tr>
+		<td class="forumheader3">Enterprise</td>
+			<td class="forumheader3">492</td>
+		</tr><tr>
+		<td class="forumheader3">Stardust</td>
+			<td class="forumheader3">405</td>
+		</tr><tr>
+		<td class="forumheader3">Redondo Special</td>
+			<td class="forumheader3">293</td>
+		</tr><tr>
+		<td class="forumheader3">Coral Sea</td>
+			<td class="forumheader3">235</td>
+		</tr><tr>
+		<td class="forumheader3">Sport King</td>
+			<td class="forumheader3">214</td>
+		</tr><tr>
+		<td class="forumheader3">Tradition</td>
+			<td class="forumheader3">112</td>
+		</tr><tr>
+		<td class="forumheader3">Alicia</td>
+			<td class="forumheader3">101</td>
+		</tr><tr>
+		<td class="forumheader3">Thunderbird</td>
+			<td class="forumheader3">58</td>
+		</tr><tr>
+		<td class="forumheader3">Jig Strike</td>
+			<td class="forumheader3">38</td>
+		</tr><tr>
+		<td class="forumheader3">Cobra</td>
+			<td class="forumheader3">30</td>
+		</tr><tr>
+		<td class="forumheader3">Grande</td>
+			<td class="forumheader3">6</td>
+		</tr><tr>
+		<td class="forumheader3">Toronado</td>
+			<td class="forumheader3">5</td>
+		</tr><tr>
+		<td class="forumheader3">Relentless</td>
+			<td class="forumheader3">3</td>
+		</tr><tr>
+		<td class="forumheader3">Old Glory</td>
+			<td class="forumheader3">3</td>
+		</tr><tr>
+		<td class="forumheader3">Condor</td>
+			<td class="forumheader3">2</td>
+		</tr><tr>
+		<td class="forumheader3">Chubasco III</td>
+			<td class="forumheader3">1</td>
+		</tr></table>
+<p>
+<p class="forumheader2" style="padding:6px;">
+The Accuracy of these reports are based upon the cooperation of the Landings and Boats in reporting. Thank you</p>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						2018 Barracuda Totals
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<div style=";OVERFLOW: auto; WIDTH: 100%; HEIGHT: 100px; text-align: center"><table class="fborder" style="width:100%">
+			Fleet Total Barracuda 17674<br /><tr><strong>
+				<td class="forumheader2">Boat</td>
+				<td class="forumheader2">Total</td>
+			</strong>
+			</tr>
+<tr>
+			<td class="forumheader3">Victory</td>
+			<td class="forumheader3">1746</td>
+		</tr><tr>
+			<td class="forumheader3">Monte Carlo</td>
+			<td class="forumheader3">1701</td>
+		</tr><tr>
+			<td class="forumheader3">Enterprise</td>
+			<td class="forumheader3">1676</td>
+		</tr><tr>
+			<td class="forumheader3">City of Long Beach</td>
+			<td class="forumheader3">539</td>
+		</tr><tr>
+			<td class="forumheader3">Pursuit</td>
+			<td class="forumheader3">429</td>
+		</tr><tr>
+			<td class="forumheader3">Tradition</td>
+			<td class="forumheader3">338</td>
+		</tr><tr>
+			<td class="forumheader3">Freedom</td>
+			<td class="forumheader3">287</td>
+		</tr><tr>
+			<td class="forumheader3">Cobra</td>
+			<td class="forumheader3">277</td>
+		</tr><tr>
+			<td class="forumheader3">Eldorado</td>
+			<td class="forumheader3">220</td>
+		</tr><tr>
+			<td class="forumheader3">Sport King</td>
+			<td class="forumheader3">168</td>
+		</tr><tr>
+			<td class="forumheader3">Grande</td>
+			<td class="forumheader3">161</td>
+		</tr><tr>
+			<td class="forumheader3">Blue Horizon</td>
+			<td class="forumheader3">110</td>
+		</tr><tr>
+			<td class="forumheader3">Pacific Islander</td>
+			<td class="forumheader3">101</td>
+		</tr><tr>
+			<td class="forumheader3">Thunderbird</td>
+			<td class="forumheader3">99</td>
+		</tr><tr>
+			<td class="forumheader3">Spitfire</td>
+			<td class="forumheader3">98</td>
+		</tr><tr>
+			<td class="forumheader3">Ultra</td>
+			<td class="forumheader3">73</td>
+		</tr><tr>
+			<td class="forumheader3">New Del Mar</td>
+			<td class="forumheader3">73</td>
+		</tr><tr>
+			<td class="forumheader3">Toronado</td>
+			<td class="forumheader3">69</td>
+		</tr><tr>
+			<td class="forumheader3">Mirage</td>
+			<td class="forumheader3">69</td>
+		</tr><tr>
+			<td class="forumheader3">Ranger 85</td>
+			<td class="forumheader3">54</td>
+		</tr><tr>
+			<td class="forumheader3">Redondo Special</td>
+			<td class="forumheader3">47</td>
+		</tr><tr>
+			<td class="forumheader3">Stardust</td>
+			<td class="forumheader3">36</td>
+		</tr><tr>
+			<td class="forumheader3">Coral Sea</td>
+			<td class="forumheader3">34</td>
+		</tr><tr>
+			<td class="forumheader3">Fortune</td>
+			<td class="forumheader3">30</td>
+		</tr><tr>
+			<td class="forumheader3">Chubasco III</td>
+			<td class="forumheader3">24</td>
+		</tr><tr>
+			<td class="forumheader3">Constitution</td>
+			<td class="forumheader3">16</td>
+		</tr><tr>
+			<td class="forumheader3">Alicia</td>
+			<td class="forumheader3">15</td>
+		</tr><tr>
+			<td class="forumheader3">Outrider</td>
+			<td class="forumheader3">13</td>
+		</tr><tr>
+			<td class="forumheader3">Chief</td>
+			<td class="forumheader3">13</td>
+		</tr><tr>
+			<td class="forumheader3">Relentless</td>
+			<td class="forumheader3">8</td>
+		</tr><tr>
+			<td class="forumheader3">Jig Strike</td>
+			<td class="forumheader3">6</td>
+		</tr><tr>
+			<td class="forumheader3">Aztec</td>
+			<td class="forumheader3">5</td>
+		</tr><tr>
+			<td class="forumheader3">Prowler</td>
+			<td class="forumheader3">1</td>
+		</tr><tr>
+			<td class="forumheader3">Gail Force</td>
+			<td class="forumheader3">1</td>
+		</tr></table>
+<p>
+<p class="forumheader2" style="padding:6px;">
+The Accuracy of these reports are based upon the cooperation of the Landings and Boats in reporting. Thank you</p>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						2018 Halibut Totals
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<div style=";OVERFLOW: auto; WIDTH: 100%; HEIGHT: 100px; text-align: center"><table class="fborder" style="width:100%">
+			Total Halibut 927<br /><tr><strong>
+				<td class="forumheader2">Boat</td>
+				<td class="forumheader2">Total</td>
+			</strong>
+			</tr>
+<tr>
+						<td class="forumheader3">Pursuit</td>
+						<td class="forumheader3">38</td>
+					</tr><tr>
+						<td class="forumheader3">Ultra</td>
+						<td class="forumheader3">24</td>
+					</tr><tr>
+						<td class="forumheader3">Pacific Islander</td>
+						<td class="forumheader3">22</td>
+					</tr><tr>
+						<td class="forumheader3">Thunderbird</td>
+						<td class="forumheader3">20</td>
+					</tr><tr>
+						<td class="forumheader3">Fortune</td>
+						<td class="forumheader3">19</td>
+					</tr><tr>
+						<td class="forumheader3">Mirage</td>
+						<td class="forumheader3">19</td>
+					</tr><tr>
+						<td class="forumheader3">Freedom</td>
+						<td class="forumheader3">17</td>
+					</tr><tr>
+						<td class="forumheader3">New Del Mar</td>
+						<td class="forumheader3">17</td>
+					</tr><tr>
+						<td class="forumheader3">Victory</td>
+						<td class="forumheader3">15</td>
+					</tr><tr>
+						<td class="forumheader3">Spitfire</td>
+						<td class="forumheader3">14</td>
+					</tr><tr>
+						<td class="forumheader3">Ranger 85</td>
+						<td class="forumheader3">10</td>
+					</tr><tr>
+						<td class="forumheader3">Outrider</td>
+						<td class="forumheader3">9</td>
+					</tr><tr>
+						<td class="forumheader3">Sport King</td>
+						<td class="forumheader3">9</td>
+					</tr><tr>
+						<td class="forumheader3">Cobra</td>
+						<td class="forumheader3">7</td>
+					</tr><tr>
+						<td class="forumheader3">Toronado</td>
+						<td class="forumheader3">6</td>
+					</tr><tr>
+						<td class="forumheader3">Enterprise</td>
+						<td class="forumheader3">6</td>
+					</tr><tr>
+						<td class="forumheader3">Eldorado</td>
+						<td class="forumheader3">6</td>
+					</tr><tr>
+						<td class="forumheader3">City of Long Beach</td>
+						<td class="forumheader3">5</td>
+					</tr><tr>
+						<td class="forumheader3">Coral Sea</td>
+						<td class="forumheader3">4</td>
+					</tr><tr>
+						<td class="forumheader3">Monte Carlo</td>
+						<td class="forumheader3">3</td>
+					</tr><tr>
+						<td class="forumheader3">Alicia</td>
+						<td class="forumheader3">3</td>
+					</tr><tr>
+						<td class="forumheader3">Stardust</td>
+						<td class="forumheader3">3</td>
+					</tr><tr>
+						<td class="forumheader3">Chief</td>
+						<td class="forumheader3">2</td>
+					</tr><tr>
+						<td class="forumheader3">Tradition</td>
+						<td class="forumheader3">2</td>
+					</tr><tr>
+						<td class="forumheader3">Grande</td>
+						<td class="forumheader3">1</td>
+					</tr><tr>
+						<td class="forumheader3">New Lo-An</td>
+						<td class="forumheader3">1</td>
+					</tr><tr>
+						<td class="forumheader3">Chubasco III</td>
+						<td class="forumheader3">1</td>
+					</tr></table>
+<p>
+<p class="forumheader2" style="padding:6px;">
+The Accuracy of these reports are based on their cooperation of the Landings and Boats in reporting. Thank you</p>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						2018 Rockfish Totals
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<div style=";OVERFLOW: auto; WIDTH: 100%; HEIGHT: 100px; text-align: center"><table class="fborder" style="width:100%">
+			Total Rockfish 1003115<br /><tr><strong>
+				<td class="forumheader2">Boat</td>
+				<td class="forumheader2">Total</td>
+			</strong>
+			</tr>
+<tr>
+						<td class="forumheader3">Stardust</td>
+						<td class="forumheader3">81065</td>
+					</tr><tr>
+						<td class="forumheader3">New Del Mar</td>
+						<td class="forumheader3">41978</td>
+					</tr><tr>
+						<td class="forumheader3">Mirage</td>
+						<td class="forumheader3">30008</td>
+					</tr><tr>
+						<td class="forumheader3">Pacific Islander</td>
+						<td class="forumheader3">27069</td>
+					</tr><tr>
+						<td class="forumheader3">Coral Sea</td>
+						<td class="forumheader3">24726</td>
+					</tr><tr>
+						<td class="forumheader3">Redondo Special</td>
+						<td class="forumheader3">24494</td>
+					</tr><tr>
+						<td class="forumheader3">Spitfire</td>
+						<td class="forumheader3">19544</td>
+					</tr><tr>
+						<td class="forumheader3">Eldorado</td>
+						<td class="forumheader3">14042</td>
+					</tr><tr>
+						<td class="forumheader3">Victory</td>
+						<td class="forumheader3">13628</td>
+					</tr><tr>
+						<td class="forumheader3">Pursuit</td>
+						<td class="forumheader3">11927</td>
+					</tr><tr>
+						<td class="forumheader3">Ranger 85</td>
+						<td class="forumheader3">11709</td>
+					</tr><tr>
+						<td class="forumheader3">Monte Carlo</td>
+						<td class="forumheader3">11164</td>
+					</tr><tr>
+						<td class="forumheader3">Freedom</td>
+						<td class="forumheader3">9231</td>
+					</tr><tr>
+						<td class="forumheader3">Enterprise</td>
+						<td class="forumheader3">8999</td>
+					</tr><tr>
+						<td class="forumheader3">City of Long Beach</td>
+						<td class="forumheader3">8564</td>
+					</tr><tr>
+						<td class="forumheader3">Thunderbird</td>
+						<td class="forumheader3">6818</td>
+					</tr><tr>
+						<td class="forumheader3">Cobra</td>
+						<td class="forumheader3">6134</td>
+					</tr><tr>
+						<td class="forumheader3">Toronado</td>
+						<td class="forumheader3">5915</td>
+					</tr><tr>
+						<td class="forumheader3">Outrider</td>
+						<td class="forumheader3">5750</td>
+					</tr><tr>
+						<td class="forumheader3">Fortune</td>
+						<td class="forumheader3">2704</td>
+					</tr><tr>
+						<td class="forumheader3">Chief</td>
+						<td class="forumheader3">1824</td>
+					</tr><tr>
+						<td class="forumheader3">Sport King</td>
+						<td class="forumheader3">1674</td>
+					</tr><tr>
+						<td class="forumheader3">Relentless</td>
+						<td class="forumheader3">1627</td>
+					</tr><tr>
+						<td class="forumheader3">Tradition</td>
+						<td class="forumheader3">1556</td>
+					</tr><tr>
+						<td class="forumheader3">Ultra</td>
+						<td class="forumheader3">1180</td>
+					</tr><tr>
+						<td class="forumheader3">Pacific Queen</td>
+						<td class="forumheader3">744</td>
+					</tr><tr>
+						<td class="forumheader3">Grande</td>
+						<td class="forumheader3">523</td>
+					</tr><tr>
+						<td class="forumheader3">Old Glory</td>
+						<td class="forumheader3">395</td>
+					</tr><tr>
+						<td class="forumheader3">Alicia</td>
+						<td class="forumheader3">379</td>
+					</tr><tr>
+						<td class="forumheader3">Sea Adventure 80</td>
+						<td class="forumheader3">286</td>
+					</tr><tr>
+						<td class="forumheader3">New Lo-An</td>
+						<td class="forumheader3">255</td>
+					</tr><tr>
+						<td class="forumheader3">Blue Horizon</td>
+						<td class="forumheader3">215</td>
+					</tr><tr>
+						<td class="forumheader3">Gail Force</td>
+						<td class="forumheader3">194</td>
+					</tr><tr>
+						<td class="forumheader3">Aztec</td>
+						<td class="forumheader3">133</td>
+					</tr><tr>
+						<td class="forumheader3">Tribute</td>
+						<td class="forumheader3">120</td>
+					</tr><tr>
+						<td class="forumheader3">Chubasco III</td>
+						<td class="forumheader3">105</td>
+					</tr><tr>
+						<td class="forumheader3">Legend</td>
+						<td class="forumheader3">100</td>
+					</tr><tr>
+						<td class="forumheader3">Jig Strike</td>
+						<td class="forumheader3">100</td>
+					</tr><tr>
+						<td class="forumheader3">Bongos III</td>
+						<td class="forumheader3">79</td>
+					</tr><tr>
+						<td class="forumheader3">Condor</td>
+						<td class="forumheader3">9</td>
+					</tr></table>
+<p>
+<p class="forumheader2" style="padding:6px;">
+The Accuracy of these reports are based on their cooperation of the Landings and Boats in reporting. Thank you</p>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						2018 Sheephead Totals
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<div style=";OVERFLOW: auto; WIDTH: 100%; HEIGHT: 100px; text-align: center"><table class="fborder" style="width:100%">
+			Total Sheephead 25467<br /><tr><strong>
+				<td class="forumheader2">Boat</td>
+				<td class="forumheader2">Total</td>
+			</strong>
+			</tr>
+<tr>
+						<td class="forumheader3">Eldorado</td>
+						<td class="forumheader3">2357</td>
+					</tr><tr>
+						<td class="forumheader3">Pursuit</td>
+						<td class="forumheader3">1726</td>
+					</tr><tr>
+						<td class="forumheader3">Freedom</td>
+						<td class="forumheader3">1279</td>
+					</tr><tr>
+						<td class="forumheader3">Sport King</td>
+						<td class="forumheader3">1234</td>
+					</tr><tr>
+						<td class="forumheader3">Toronado</td>
+						<td class="forumheader3">944</td>
+					</tr><tr>
+						<td class="forumheader3">Thunderbird</td>
+						<td class="forumheader3">596</td>
+					</tr><tr>
+						<td class="forumheader3">City of Long Beach</td>
+						<td class="forumheader3">540</td>
+					</tr><tr>
+						<td class="forumheader3">Victory</td>
+						<td class="forumheader3">535</td>
+					</tr><tr>
+						<td class="forumheader3">Outrider</td>
+						<td class="forumheader3">479</td>
+					</tr><tr>
+						<td class="forumheader3">Enterprise</td>
+						<td class="forumheader3">466</td>
+					</tr><tr>
+						<td class="forumheader3">Fortune</td>
+						<td class="forumheader3">423</td>
+					</tr><tr>
+						<td class="forumheader3">Mirage</td>
+						<td class="forumheader3">382</td>
+					</tr><tr>
+						<td class="forumheader3">Ranger 85</td>
+						<td class="forumheader3">364</td>
+					</tr><tr>
+						<td class="forumheader3">Cobra</td>
+						<td class="forumheader3">346</td>
+					</tr><tr>
+						<td class="forumheader3">Ultra</td>
+						<td class="forumheader3">337</td>
+					</tr><tr>
+						<td class="forumheader3">Pacific Islander</td>
+						<td class="forumheader3">271</td>
+					</tr><tr>
+						<td class="forumheader3">Redondo Special</td>
+						<td class="forumheader3">265</td>
+					</tr><tr>
+						<td class="forumheader3">New Del Mar</td>
+						<td class="forumheader3">186</td>
+					</tr><tr>
+						<td class="forumheader3">Chief</td>
+						<td class="forumheader3">180</td>
+					</tr><tr>
+						<td class="forumheader3">Coral Sea</td>
+						<td class="forumheader3">179</td>
+					</tr><tr>
+						<td class="forumheader3">Stardust</td>
+						<td class="forumheader3">179</td>
+					</tr><tr>
+						<td class="forumheader3">Spitfire</td>
+						<td class="forumheader3">156</td>
+					</tr><tr>
+						<td class="forumheader3">Tradition</td>
+						<td class="forumheader3">126</td>
+					</tr><tr>
+						<td class="forumheader3">Monte Carlo</td>
+						<td class="forumheader3">104</td>
+					</tr><tr>
+						<td class="forumheader3">Chubasco III</td>
+						<td class="forumheader3">55</td>
+					</tr><tr>
+						<td class="forumheader3">Blue Horizon</td>
+						<td class="forumheader3">31</td>
+					</tr><tr>
+						<td class="forumheader3">Sea Adventure 80</td>
+						<td class="forumheader3">29</td>
+					</tr><tr>
+						<td class="forumheader3">Relentless</td>
+						<td class="forumheader3">27</td>
+					</tr><tr>
+						<td class="forumheader3">Alicia</td>
+						<td class="forumheader3">26</td>
+					</tr><tr>
+						<td class="forumheader3">Prowler</td>
+						<td class="forumheader3">20</td>
+					</tr><tr>
+						<td class="forumheader3">New Lo-An</td>
+						<td class="forumheader3">18</td>
+					</tr><tr>
+						<td class="forumheader3">Jig Strike</td>
+						<td class="forumheader3">10</td>
+					</tr><tr>
+						<td class="forumheader3">Tribute</td>
+						<td class="forumheader3">5</td>
+					</tr><tr>
+						<td class="forumheader3">Legend</td>
+						<td class="forumheader3">5</td>
+					</tr><tr>
+						<td class="forumheader3">Grande</td>
+						<td class="forumheader3">2</td>
+					</tr></table>
+<p>
+<p class="forumheader2" style="padding:6px;">
+The Accuracy of these reports are based on their cooperation of the Landings and Boats in reporting. Thank you</p>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						2018 Whitefish Totals
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<div style=";OVERFLOW: auto; WIDTH: 100%; HEIGHT: 100px; text-align: center"><table class="fborder" style="width:100%">
+			Total Whitefish 329180<br /><tr><strong>
+				<td class="forumheader2">Boat</td>
+				<td class="forumheader2">Total</td>
+			</strong>
+			</tr>
+<tr>
+						<td class="forumheader3">City of Long Beach</td>
+						<td class="forumheader3">12665</td>
+					</tr><tr>
+						<td class="forumheader3">New Del Mar</td>
+						<td class="forumheader3">12629</td>
+					</tr><tr>
+						<td class="forumheader3">Victory</td>
+						<td class="forumheader3">11574</td>
+					</tr><tr>
+						<td class="forumheader3">Mirage</td>
+						<td class="forumheader3">11414</td>
+					</tr><tr>
+						<td class="forumheader3">Pacific Islander</td>
+						<td class="forumheader3">11393</td>
+					</tr><tr>
+						<td class="forumheader3">Freedom</td>
+						<td class="forumheader3">10238</td>
+					</tr><tr>
+						<td class="forumheader3">Enterprise</td>
+						<td class="forumheader3">10036</td>
+					</tr><tr>
+						<td class="forumheader3">Redondo Special</td>
+						<td class="forumheader3">9345</td>
+					</tr><tr>
+						<td class="forumheader3">Stardust</td>
+						<td class="forumheader3">9113</td>
+					</tr><tr>
+						<td class="forumheader3">Eldorado</td>
+						<td class="forumheader3">8176</td>
+					</tr><tr>
+						<td class="forumheader3">Monte Carlo</td>
+						<td class="forumheader3">8126</td>
+					</tr><tr>
+						<td class="forumheader3">Spitfire</td>
+						<td class="forumheader3">7269</td>
+					</tr><tr>
+						<td class="forumheader3">Cobra</td>
+						<td class="forumheader3">6567</td>
+					</tr><tr>
+						<td class="forumheader3">Pursuit</td>
+						<td class="forumheader3">6229</td>
+					</tr><tr>
+						<td class="forumheader3">Sport King</td>
+						<td class="forumheader3">5455</td>
+					</tr><tr>
+						<td class="forumheader3">Toronado</td>
+						<td class="forumheader3">5169</td>
+					</tr><tr>
+						<td class="forumheader3">Coral Sea</td>
+						<td class="forumheader3">4585</td>
+					</tr><tr>
+						<td class="forumheader3">Thunderbird</td>
+						<td class="forumheader3">4239</td>
+					</tr><tr>
+						<td class="forumheader3">Tradition</td>
+						<td class="forumheader3">3580</td>
+					</tr><tr>
+						<td class="forumheader3">Ranger 85</td>
+						<td class="forumheader3">3313</td>
+					</tr><tr>
+						<td class="forumheader3">Outrider</td>
+						<td class="forumheader3">2517</td>
+					</tr><tr>
+						<td class="forumheader3">Chief</td>
+						<td class="forumheader3">1193</td>
+					</tr><tr>
+						<td class="forumheader3">Ultra</td>
+						<td class="forumheader3">953</td>
+					</tr><tr>
+						<td class="forumheader3">Fortune</td>
+						<td class="forumheader3">402</td>
+					</tr><tr>
+						<td class="forumheader3">Relentless</td>
+						<td class="forumheader3">237</td>
+					</tr><tr>
+						<td class="forumheader3">Gail Force</td>
+						<td class="forumheader3">215</td>
+					</tr><tr>
+						<td class="forumheader3">Blue Horizon</td>
+						<td class="forumheader3">86</td>
+					</tr><tr>
+						<td class="forumheader3">Chubasco III</td>
+						<td class="forumheader3">66</td>
+					</tr><tr>
+						<td class="forumheader3">Bongos III</td>
+						<td class="forumheader3">20</td>
+					</tr><tr>
+						<td class="forumheader3">Aztec</td>
+						<td class="forumheader3">17</td>
+					</tr><tr>
+						<td class="forumheader3">Prowler</td>
+						<td class="forumheader3">15</td>
+					</tr><tr>
+						<td class="forumheader3">Alicia</td>
+						<td class="forumheader3">12</td>
+					</tr><tr>
+						<td class="forumheader3">Grande</td>
+						<td class="forumheader3">4</td>
+					</tr><tr>
+						<td class="forumheader3">Tribute</td>
+						<td class="forumheader3">1</td>
+					</tr></table>
+<p>
+<p class="forumheader2" style="padding:6px;">
+The Accuracy of these reports are based on their cooperation of the Landings and Boats in reporting. Thank you</p>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<table style='width:195px' border='0' cellspacing='0' cellpadding='0' class='background'>
+	<tr style='width:210px' class='background'>
+    	<td class='spacer2'>
+			<table style='width:195px' cellspacing='0' cellpadding='0' border='0'>
+				<tr>
+					<td class='w3-round-xlarge w3-panel w3-border w3-metro-dark-blue' style='white-space:nowrap'>
+						2018 Red Snapper Totals
+					</td>
+				</tr>
+			</table>
+			<table style='width:185px' cellspacing='0' cellpadding='0'>
+				<tr>
+					<td class='menucolor'>
+					<div style=";OVERFLOW: auto; WIDTH: 100%; HEIGHT: 100px; text-align: center"><table class="fborder" style="width:100%">
+			Total Red_Snapper 130438<br /><tr><strong>
+				<td class="forumheader2">Boat</td>
+				<td class="forumheader2">Total</td>
+			</strong>
+			</tr>
+<tr>
+						<td class="forumheader3">Stardust</td>
+						<td class="forumheader3">11952</td>
+					</tr><tr>
+						<td class="forumheader3">Coral Sea</td>
+						<td class="forumheader3">8196</td>
+					</tr><tr>
+						<td class="forumheader3">Monte Carlo</td>
+						<td class="forumheader3">3220</td>
+					</tr><tr>
+						<td class="forumheader3">Pursuit</td>
+						<td class="forumheader3">2946</td>
+					</tr><tr>
+						<td class="forumheader3">Spitfire</td>
+						<td class="forumheader3">2460</td>
+					</tr><tr>
+						<td class="forumheader3">Victory</td>
+						<td class="forumheader3">2261</td>
+					</tr><tr>
+						<td class="forumheader3">City of Long Beach</td>
+						<td class="forumheader3">1453</td>
+					</tr><tr>
+						<td class="forumheader3">Enterprise</td>
+						<td class="forumheader3">1284</td>
+					</tr><tr>
+						<td class="forumheader3">Sport King</td>
+						<td class="forumheader3">1257</td>
+					</tr><tr>
+						<td class="forumheader3">Eldorado</td>
+						<td class="forumheader3">1013</td>
+					</tr><tr>
+						<td class="forumheader3">Pacific Queen</td>
+						<td class="forumheader3">618</td>
+					</tr><tr>
+						<td class="forumheader3">Ultra</td>
+						<td class="forumheader3">606</td>
+					</tr><tr>
+						<td class="forumheader3">Tradition</td>
+						<td class="forumheader3">605</td>
+					</tr><tr>
+						<td class="forumheader3">Fortune</td>
+						<td class="forumheader3">550</td>
+					</tr><tr>
+						<td class="forumheader3">Chief</td>
+						<td class="forumheader3">444</td>
+					</tr><tr>
+						<td class="forumheader3">Old Glory</td>
+						<td class="forumheader3">407</td>
+					</tr><tr>
+						<td class="forumheader3">Thunderbird</td>
+						<td class="forumheader3">357</td>
+					</tr><tr>
+						<td class="forumheader3">Relentless</td>
+						<td class="forumheader3">350</td>
+					</tr><tr>
+						<td class="forumheader3">Freedom</td>
+						<td class="forumheader3">290</td>
+					</tr><tr>
+						<td class="forumheader3">Tribute</td>
+						<td class="forumheader3">140</td>
+					</tr><tr>
+						<td class="forumheader3">Redondo Special</td>
+						<td class="forumheader3">110</td>
+					</tr><tr>
+						<td class="forumheader3">Alicia</td>
+						<td class="forumheader3">25</td>
+					</tr><tr>
+						<td class="forumheader3">Grande</td>
+						<td class="forumheader3">10</td>
+					</tr></table>
+<p>
+<p class="forumheader2" style="padding:6px;">
+The Accuracy of these reports are based on their cooperation of the Landings and Boats in reporting. Thank you</p>
+</div>
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+						</td></tr>		</table>	</td>      </tr>	  <tr><td class='menu-fill-left'></td>	  	<td class='footer'>		All trademarks are their respective owners, all other content is 976-TUNA.com LLC 		</td>		<td class='menu-fill-right'></td>		</tr>		<tr><td></td></tr>    </table>	</div>
+<div style='text-align:center' class='smalltext'>Render time: 0.2589 sec, 0.1746 of that for queries. </div>
+<script type='text/javascript'>
+SyncWithServerTime('1542249215');
+       </script>
+</body></html>

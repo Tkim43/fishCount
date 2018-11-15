@@ -16,10 +16,9 @@ function getData(){
 
 function displayLandingCounts(landingInfo){
     for(let i =0; i < landingInfo.length; i++){
-        let location = landingInfo[i].location;
-        console.log(location);
-
-        let boatCount = landingInfo[i].anglerCount;
-        console.log(boatCount)
+        let startDiv = $('<div>').addClass('col s12 m7 fishHomeInfoStart');
+        $('.fishHomePageInformation').append(startDiv);
+        let header = $('<h3>').addClass("header");
+        $('.fishHomeInfoStart').append(header)
     }
 }

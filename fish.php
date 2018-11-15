@@ -8,6 +8,12 @@ header("Access-Control-Allow-Origin: *");
  * Time: 6:34 PM
  */
 
+print_r($_SERVER);
+
+// we have to grab the user agent
+// curl
+
+    // have a page that prints that
 $data = file_get_contents('https://www.976-tuna.com/e107_plugins/landing/wrapup.php');
 
 //$data = substr($data, 5000, 5000);
